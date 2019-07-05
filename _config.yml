@@ -282,7 +282,7 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # _pages 
   - scope:
       path: ""
       type: pages
