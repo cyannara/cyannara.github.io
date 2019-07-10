@@ -1,7 +1,9 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2017-10-20 08:26:28 -0400
-categories: jekyll update
+title: "lombok"
+date: 2019-17-10 08:26:28 -0400
+categories: lombok
 ---
 ##LOMBOK
-[lombok][lomboklink] [lomboklink]: https://projectlombok.org/ "Go lombok"
+[lombok][lomboklink] 
+[lomboklink]: https://projectlombok.org/ "Go lombok"
+
