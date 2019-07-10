@@ -6,5 +6,5 @@ categories: lombok
 ## LOMBOK
 1. download
     https://search.maven.org/artifact/org.projectlombok/lombok/1.18.8/jar
-2. document
+1. document
     lombok site: https://projectlombok.org/
