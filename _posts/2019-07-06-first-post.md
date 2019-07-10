@@ -8,3 +8,9 @@ categories: lombok
     https://search.maven.org/artifact/org.projectlombok/lombok/1.18.8/jar
 1. document
     lombok site: https://projectlombok.org/
+`<dependency>
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.18.8</version>
+</dependency>
+
