@@ -1,6 +1,12 @@
 ---
-title: "Welcome to chichi"
+title: "Generics"
 date: 2019-07-06 08:26:28 -0400
-categories: spring
+categories: java
 ---
-test2입니다. 수정
+## Generics
+
+참고사이트 : https://docs.oracle.com/javase/tutorial/java/generics/index.html  
+
+
+
+
