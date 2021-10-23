@@ -3,6 +3,7 @@ title: "JPA"
 date: 2019-7-10 08:26:28 -0400
 categories: spring  
 tags: [jpa]
+toc: true
 ---
 
 # JPA와 hibernate, Spring Data JPA와 관계
