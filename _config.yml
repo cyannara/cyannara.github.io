@@ -294,12 +294,37 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar:
+        nav: "docs"
 
-sidebar:
-  - title: "Title"
-    image: "/assets/images/your-image.jpg"
-    image_alt: "image"
-    text: "Some text here."
-  - title: "Another Title"
-    text: "More text here."
-    nav: sidebar-sample
+docs:
+  - title: Machine Learning
+    children:
+      - title: "내 데이터로 CNN 돌려보기"
+        url: /_pages/cnn/
+      - title: "내 데이터로 ResNet 돌려보기"
+        url: /_pages/resnet/
+      - title: "AWS Sagemaker에서 ResNet 돌려보기"
+        url: /_pages/sagemaker/
+
+  - title: Algorithm
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+
+  - title: Server
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+
+  - title: iOS
+    children:
+      - title: "[Swift] 네비게이션 바, 화면 이동"
+        url: /_pages/swift1/
+      - title: "[Swift] 웹뷰(WKWebView), 옵셔널 바인딩(optional binding)"
+        url: /_pages/swift2/
+
+  - title: Python
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
