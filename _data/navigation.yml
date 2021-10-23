@@ -1,10 +1,10 @@
 docs:
-  - title: Getting Started
+  - title: spring
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
+      - title: "환경설정"
+        url: /spring/2021-10-19-spring환경설정.md
+      - title: "lombok"
+        url: /spring/2019-07-06-lombok.md
       - title: "Installation"
         url: /docs/installation/
       - title: "Upgrading"
