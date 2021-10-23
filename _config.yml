@@ -288,8 +288,8 @@ defaults:
       path: ""
       type: docs
     values:
-#      layout: single
-#      author_profile: true
+      layout: categories  #single
+      author_profile: true
 #      read_time: true
 #      comments:  true
 #      share: true
