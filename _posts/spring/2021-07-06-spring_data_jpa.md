@@ -1,3 +1,10 @@
+---
+title: "JPA"
+date: 2019-7-10 08:26:28 -0400
+categories: spring  
+tags: [jpa]
+---
+
 # JPA와 hibernate, Spring Data JPA와 관계
 * JPA  
  Java Persistence API의 약자로, 자바 어플리케이션에서 관계형 데이터베이스를 사용하는 방식을 정의한 인터페이스이다. JPA는 단순히 명세이기 때문에 구현이 없다.   
