@@ -2,23 +2,24 @@ docs:
   - title: spring
     children:
       - title: "환경설정"
-        url: /spring환경설정/
+        url: /spring/spring환경설정/
       - title: "lombok"
-        url: /lombok/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+        url: /spring/lombok/
+      - title: "tiles"
+        url: /spring/tiles/
+      - title: "aws"
+        url: /spring/aws/
+      - title: "ojdbc"
+        url: /spring/ojdbc/
+      - title: "jpa"
+        url: /spring/spring_data_jpa/
 
-  - title: Customization
+
+  - title: javascript
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+      - title: "vs code"
+        url: /javascript/visual_studio_code/
+      - title: "git"
+        url: /javascript/vscode_git/
+      - title: "domt"
+        url: /javascript/bom_dom/
