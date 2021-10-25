@@ -2,9 +2,9 @@ docs:
   - title: spring
     children:
       - title: "환경설정"
-        url: /spring/2021-10-19-spring환경설정.md
+        url: /spring환경설정
       - title: "lombok"
-        url: /spring/2019-07-06-lombok.md
+        url: /lombok
       - title: "Installation"
         url: /docs/installation/
       - title: "Upgrading"
