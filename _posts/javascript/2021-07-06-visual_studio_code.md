@@ -11,4 +11,5 @@
 | Open Preview(MD)                 | Ctrl + Shift + V    | 
 | open in default browser          | Alt + B             | 
 | open in specified browser        | Shift + Alt + B     | 
+| 주석                             | Ctrl + /            |
 
