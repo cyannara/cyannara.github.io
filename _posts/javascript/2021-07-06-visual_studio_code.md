@@ -8,4 +8,7 @@
 | -------------------------------- | :------------------ |
 | TERMINAL                         | Ctrl + `            |
 | Settings                         | Ctrl + ,            |  
-| Open Preview                     | Ctrl + Shift + V    | 
+| Open Preview(MD)                 | Ctrl + Shift + V    | 
+| open in default browser          | Alt + B             | 
+| open in specified browser        | Shift + Alt + B     | 
+
