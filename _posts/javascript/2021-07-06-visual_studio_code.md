@@ -12,4 +12,7 @@
 | open in default browser          | Alt + B             | 
 | open in specified browser        | Shift + Alt + B     | 
 | 주석                             | Ctrl + /            |
+| 한줄 복사                        | Shift + Alt + ↑ or ↓ |
+| 한줄 삭제                        | Ctrl + shift + k     |
+| 한줄 이동                        |  Alt + ↑ or ↓        |
 
