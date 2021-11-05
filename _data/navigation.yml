@@ -17,9 +17,9 @@ docs:
   - title: javascript
     children:
       - title: "vs code"
-        url: /javascript/visual_studio_code/
+        url: /visual_studio_code/
       - title: "git"
-        url: /javascript/vscode_git/
+        url: /vscode_git/
        - title: "문자열"
         url: /javascript/문자열/
       - title: "domt"
