@@ -14,12 +14,18 @@ docs:
       - title: "jpa"
         url: /spring/spring_data_jpa/
 
-
   - title: javascript
     children:
       - title: "vs code"
         url: /javascript/visual_studio_code/
       - title: "git"
         url: /javascript/vscode_git/
+       - title: "문자열"
+        url: /javascript/문자열/
       - title: "domt"
         url: /javascript/bom_dom/
+
+  - title: vue
+    children:
+      - title: "mvvm"
+        url: /vue/mvvm/        
