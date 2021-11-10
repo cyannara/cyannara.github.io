@@ -18,16 +18,25 @@ docs:
     children:
       - title: "vs code"
         url: /visual_studio_code/
+
       - title: "git"      
-        url: /vscode_git/
+        url: /git/vscode_git/
+
+      - title: "devtools"
+        url: /devtools/
+
       - title: "ecma_script"
         url: /ecma_script/
+
       - title: "class"
-        url: /string/       
+        url: /class/       
+
       - title: "function"
         url: /function/           
+
       - title: "문자열"
         url: /string/
+
       - title: "domt"
         url: /bom_dom/
 
