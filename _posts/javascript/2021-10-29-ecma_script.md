@@ -26,4 +26,4 @@ let cnt = 10;      // 중복선언 방지(err msg : Identifier 'XXX' has already
 const init = 10;   // 상수선언. 값 변경불가(err msg : Assignment to constant variable)
 const obj = { };   // 상수선언. 값(타입) 변경불가. 객체나 배열의 원소값은 변경 가능
 ```
-![var](./img/var01.png)  
+![var](./javascript/img/var01.png)  
