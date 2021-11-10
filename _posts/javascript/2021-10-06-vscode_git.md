@@ -10,13 +10,13 @@ categories: git
 F1 > 'git clone' 입력 > 'Git: Clone' 메뉴 선택 -> GitHub에서 복제 -> 리포지토리 선택 -> 로컬에 저장될 위치 지정
 
 ## 2. add stage
-![add](./img/vs_git_01.png)  
+![add](/javascript/img/vs_git_01.png)  
 
 ## 3. commit
-![commit](./img/vs_git_02.png)  
+![commit](/javascript/img/vs_git_02.png)  
 
 ## 4. push
-![push](./img/vs_git_03.png)  
+![push](/javascript/img/vs_git_03.png)  
 
 
 # 터미널에서 github연동  
