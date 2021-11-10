@@ -20,7 +20,7 @@ docs:
         url: /visual_studio_code/
       - title: "git"
         url: /vscode_git/
-       - title: "문자열"
+      - title: "문자열"
         url: /javascript/문자열/
       - title: "domt"
         url: /javascript/bom_dom/
