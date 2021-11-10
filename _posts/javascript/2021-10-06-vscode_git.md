@@ -27,4 +27,4 @@ F1 > 'git clone' 입력 > 'Git: Clone' 메뉴 선택 -> GitHub에서 복제 -> �
 ```
 
 # 참고사이트  
-* [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github)
+* [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github){:target="_blank"} 
