@@ -1,8 +1,8 @@
 ### 참고사이트
-  * [모질라 자바스크립 가이드](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide)
-  * [w3schools](http://w3schools.com)
+  * [모질라 자바스크립 가이드](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide){:target="_blank"} 
+  * [w3schools](http://w3schools.com){:target="_blank"} 
 
-### 자바스크립트 버전 [(참고사이트)](https://www.w3schools.com/js/js_versions.asp)
+### 자바스크립트 버전 [(참고사이트)](https://www.w3schools.com/js/js_versions.asp){:target="_blank"} 
   * ES5    = ES5(2009년)
   * ES2015 = ES6 : Map/Set/let/const/Arrow funtion/for~of/promise/default,rest parameter/Module
   * ES2016 = ES7
@@ -27,3 +27,6 @@ const init = 10;   // 상수선언. 값 변경불가(err msg : Assignment to con
 const obj = { };   // 상수선언. 값(타입) 변경불가. 객체나 배열의 원소값은 변경 가능
 ```
 ![var](/img/var01.png)  
+
+### 예약어
+arguments await break case catcl class const debuffer default delete do else enum eval export extends false finally for function if implements import in Infinity instanceof interface let NaN null package private protected public return static super switch this throw true typeof undefined var void while with yield
