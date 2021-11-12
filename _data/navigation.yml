@@ -17,28 +17,28 @@ docs:
   - title: javascript
     children:
       - title: "vs code"
-        url: /visual_studio_code/
+        url: /javascript/visual_studio_code/
 
       - title: "git"      
-        url: /git/vscode_git/
+        url: /javascript/vscode_git/
 
       - title: "devtools"
-        url: /devtools/
+        url: /javascript/devtools/
 
       - title: "ecma_script"
-        url: /ecma_script/
+        url: /javascript/ecma_script/
 
       - title: "class"
-        url: /class/       
+        url: /javascript/class/       
 
       - title: "function"
-        url: /function/           
+        url: /javascript/function/           
 
       - title: "문자열"
-        url: /string/
+        url: /javascript/string/
 
       - title: "domt"
-        url: /bom_dom/
+        url: /javascript/bom_dom/
 
   - title: vue
     children:
