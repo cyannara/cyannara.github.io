@@ -27,12 +27,15 @@ docs:
 
       - title: "ecma_script"
         url: /javascript/ecma_script/
-
-      - title: "class"
-        url: /javascript/class/       
-
+   
       - title: "function"
-        url: /javascript/function/           
+        url: /javascript/function/   
+
+      - title: "closure"
+        url: /javascript/closure/    
+        
+      - title: "class"
+        url: /javascript/class/    
 
       - title: "문자열"
         url: /javascript/string/
