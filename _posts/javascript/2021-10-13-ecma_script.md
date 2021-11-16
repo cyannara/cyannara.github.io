@@ -9,12 +9,13 @@ categories: javascript
   * [모던자바스크립트 Deep Dive(이웅모)](https://poiemaweb.com/js-introduction){:target="_blank"} 
   * [w3schools](http://w3schools.com){:target="_blank"} 
   * [developer-readmap](https://github.com/kamranahmedse/developer-roadmap){:target="_blank"} [developer-readmap](https://roadmap.sh/)
+  * [ecma standard](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
 
-## 자바스크립트 버전 [(참고사이트)](https://www.w3schools.com/js/js_versions.asp){:target="_blank"} 
-  * ES5    = ES5(2009년) : callback
-  * ES2015 = ES6 : let/const/Arrow funtion/for~of/default,rest parameter/promise/Map/Set/Module/Symbol/class
-  * ES2016 = ES7 : async/await
-  * ES2017 = ES8 : str.padStart()/Object.values()/Object.entries()
+## 자바스크립트 버전 [(참고사이트)](https://www.greycampus.com/blog/programming/java-script-versions){:target="_blank"} 
+  * ES5    = ES5(2009년) : callback/JSON/getter,setter/Date.now() 
+  * ES2015 = ES6 : let/const/Arrow funtion/for~of/default,rest parameter/spread operator(...)/template literal/promise/Map/Set/Module/Symbol/class
+  * ES2016 = ES7 : **(연산자)/array includes()
+  * ES2017 = ES8 : async,await/str.padStart(),padEnd()/Object.values()/Object.entries()/ trailing commas
   * ES2018 = ES9 : rest properties(...)
   * ES2019 = ES10
   * ES2020 = ES11
