@@ -1,7 +1,7 @@
 ---
 title: "vscode_git"
-date: 2021-10-14
-categories: git  
+date: 2021-10-06
+categories: javascript  
 ---
 
 # github 연동
