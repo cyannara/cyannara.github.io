@@ -27,23 +27,35 @@ docs:
 
       - title: "ecma_script"
         url: /javascript/ecma_script/
-   
+
+      - title: "js vs jquery"
+        url: /javascript/javascript_vs_jquery/
+
+      - title: "string"
+        url: /javascript/string/
+
+      - title: "array"
+        url: /javascript/array/
+        
+      - title: "class"
+        url: /javascript/class/    
+
       - title: "function"
         url: /javascript/function/   
 
       - title: "closure"
         url: /javascript/closure/    
-        
-      - title: "class"
-        url: /javascript/class/    
 
-      - title: "문자열"
-        url: /javascript/string/
+      - title: "promise"
+        url: /javascript/promise/  
 
-      - title: "domt"
-        url: /javascript/bom_dom/
+      # - title: "domt"
+      #   url: /javascript/bom_dom/
 
   - title: vue
     children:
       - title: "mvvm"
-        url: /vue/mvvm/        
+        url: /vue/mvvm/    
+
+      - title: "vue 시작"
+        url: /vue/first/              
