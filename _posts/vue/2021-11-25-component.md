@@ -9,16 +9,20 @@ categories: vue
 컴포넌트로 화면을 구성하게되면 컴포넌트마다 scope(유효범위)를 갖기 때문데 데이터를 공유할 수 없다.
 
 * 상위 ↔ 하위 컴포넌트간의 전달
-  * `props`, `emit` : props로 컴포넌트에 등록할 수 있는 커스텀 속성으로 하위 컴포넌트로 데이터 전달하고 emit 커스텀 이벤트 시스템으로 v-on 또는 @을 사용하여 하위 컴포넌트 인스턴스의 모든 이벤트를 수신
-  ![props_emit](/img/vue/props_emit.png)
-  * `provide , inject` : 부모 컴포넌트는 데이터 제공을 위해 provide 옵션을 사용하며, 자식 요소는 데이터 사용을 위해 inject 옵션을 사용
+  * `props`, `emit`
+    * ![props_emit](/img/vue/props_emit.png) 
+    * props로 컴포넌트에 등록할 수 있는 커스텀 속성으로 하위 컴포넌트로 데이터 전달하고 emit 커스텀 이벤트 시스템으로 v-on 또는 @을 사용하여 하위 컴포넌트 인스턴스의 모든 이벤트를 수신.  
+  * `provide , inject` 
+    * 부모 컴포넌트는 데이터 제공을 위해 provide 옵션을 사용하며, 자식 요소는 데이터 사용을 위해 inject 옵션을 사용
+    * VUE2에서는 eventBus가 사용되었음.
+  * `$root`
+    * 루트 인스턴스에 접근.  $parent, $props
 
 * 상위 → 하위 배포  
   * `slot` : 컨텐츠(html) 배포 API
   * `this.$root` 와 `this.$parent`
 
 * 모든 컴포넌트가 공유
-  * `EventBus`
   * `vuex`
 
 ## props
@@ -57,12 +61,17 @@ export default {
 
 ## emit
 
+* 커스텀 이벤트
+* this.$emit("상위에서 받을 이벤트 이름")
 
+```js
+
+```
 
 ## vuex store
 
 * [참고사이트](https://vuex.vuejs.org/kr/){:target="_blank"}
-* 전역 스토어. 메모리 기반의 저장소
+* 전역 스토어. 메모리 기반의 저장소. 
 * 애플리케이션 내 모든 컴포넌트들에게 중앙집중적인 저장소를 제공
 * vue3의 컴포지션 API는 vuex의 역할을 대체가능하지만 하위호환성 및 개발자의 선호도로 인해 많이 사용되고 있음
 * vuex는 Flux 아키텍쳐를 구현하는데 도움이 되는 라이브러리
@@ -72,5 +81,9 @@ export default {
 * vuex 설치
 
 ```js
-npm install vuex@next
+npm install vuex@next --save
 ```
+* `state` : 저장할 데이터들의 객체를 반환
+* `getters` : state 데이터를 필요한 형식으로 전처리를 해주는 반응형 속성. computed value와 비슷
+* `mutations` : state내 원본 데이터의 변형을 허락하는 유일한 속성
+* `actions` : 외부 컴포넌트에서 호출하는 함수의 집합으로 actions는 일반적으로 mutations를 호출하여 데이터 변형을 일으킨다. 
