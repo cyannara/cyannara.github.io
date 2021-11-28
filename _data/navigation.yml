@@ -60,5 +60,8 @@ docs:
       - title: "vue 시작"
         url: /vue/first/              
 
+      - title: "component"
+        url: /vue/component/  
+
       - title: "node.js"
         url: /vue/nodejs/   
