@@ -4,8 +4,14 @@ date: 2021-10-14
 categories: javascript  
 ---
 
+## 자바스크립트 기능
+1. DOM api
+2. AJAX
+3. validation
 
-|  분류          | 자바스크립                                  |  jquery                                            |
+## DOM api
+
+|  분류          | 자바스크립트                                |  jquery                                            |
 | :------------: | :------------------------------------------ | :------------------------------------------------- |
 | 요소선택	     | document.getElementById("div")              | $("#div")	                                        |
 |                |         .getElementsByTagName("div")        | $("div")                                           |
@@ -30,4 +36,6 @@ categories: javascript
 |                |                                             |                                                    |
 |                |                                             |                                                    |
 
-
+## AJAX
+1. to do list
+2. 
