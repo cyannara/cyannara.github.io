@@ -17,39 +17,28 @@ docs:
   - title: javascript
     children:
       - title: "vs code"
-        url: /javascript/visual_studio_code/
-
+        url: /javascript/vs_code/
       - title: "git"      
         url: /javascript/vscode_git/
-
       - title: "devtools"
         url: /javascript/devtools/
-
       - title: "ecma_script"
         url: /javascript/ecma_script/
-
       - title: "js vs jquery"
         url: /javascript/javascript_vs_jquery/
-
-      - title: "string"
-        url: /javascript/string/
-
       - title: "array"
-        url: /javascript/array/
-        
+        url: /javascript/array/ 
+      - title: "string"
+        url: /javascript/string/       
       - title: "class"
-        url: /javascript/class/    
-
+        url: /javascript/class/
       - title: "function"
-        url: /javascript/function/   
-
-      - title: "closure"
-        url: /javascript/closure/    
-
+        url: /javascript/function/      
       - title: "promise"
         url: /javascript/promise/  
-
-      # - title: "domt"
+      - title: "js review schedule"
+        url: /javascript/js_review/
+      # - title: "dom bom"
       #   url: /javascript/bom_dom/
 
   - title: vue
