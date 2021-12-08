@@ -12,7 +12,7 @@ categories: javascript
 ## DOM api
 
 |  분류          | 자바스크립트                                    |  jquery                                            |
-| :------------: | :---------------------------------------------- | :------------------------------------------------- |
+| :------------  | :---------------------------------------------- | :------------------------------------------------- |
 | 요소선택	     | document.getElementById("div")                  | $("#div")	                                        |
 |                |         .getElementsByTagName("div")            | $("div")                                           |
 |                |         .getElementsByName("div")               | $("[name='div']")                                  |
@@ -38,7 +38,7 @@ categories: javascript
 |                |                                                 |       find("css선택자")                            |
 |          형제  | nextElementSibling, previousElementSibling      | $태그.prev()/next()/prevAll()/nextAll()/siblings() |
 |          필터  |                                                 | eq(), odd(), even()                                |
-|                |  |   |
+| 반복문         | forEach()                                       | each()                                             |
 
 ## AJAX
 1. to do list
