@@ -30,7 +30,7 @@ categories: javascript
 |                |                                                 |      .hide(),  show(),  width()                    |
 | data속성       | 태그.setAttribute("data-속섬", "값")            | $태그.data("속성", "값")                           |
 | class 변경     | 태그.classlist.add() / remove() / togger()      | $태그.addClass() / removeClass() / toggleClass()   |
-|                |     .contains()                                 |                                                    |
+|                |     .contains("클래스명")                       |      .hasClass("클래스명")                         |
 | event          | 태그.addEventListener("type", handler)          | $태그.bind()   ,  on() , one()                     |
 |                | 태그.removeEventListener("type")                |      .unbind() ,  off()                            |
 | traverse-부모  | 태그.parentElement , closest()                  | $태그.parent(),  closest()                         |
@@ -39,9 +39,18 @@ categories: javascript
 |          형제  | nextElementSibling, previousElementSibling      | $태그.prev()/next()/prevAll()/nextAll()/siblings() |
 |          필터  |                                                 | eq(), odd(), even()                                |
 | 반복문         | forEach()                                       | each()                                             |
+| ajax           | XmlHttpRequest 객체,  fetch()                   | $.ajax()  .post() .get()  .getJson()               |
+|                |                                                 | $("div").load(url)                                 |
 
 ## AJAX
 1. to do list
-2. 
+2. petShop
+3. users
+4. emp
 
- firstElementChild,lastElementChild
+
+## jQuery 위젯
+1. DataTable
+2. fullcalendar
+3. chart
+4. jqgrid
