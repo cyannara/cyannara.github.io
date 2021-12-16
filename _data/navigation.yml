@@ -54,3 +54,8 @@ docs:
 
       - title: "node.js"
         url: /vue/nodejs/   
+
+  - title: python
+    children:
+      - title: "python"
+        url: /python/python_web/    
