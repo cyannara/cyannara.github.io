@@ -58,4 +58,6 @@ docs:
   - title: python
     children:
       - title: "python"
+        url: /python/python/       
+      - title: "python web"
         url: /python/python_web/    
