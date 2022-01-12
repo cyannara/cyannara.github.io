@@ -5,4 +5,12 @@ categories: spring
 tags: [upload]
 toc: true
 ---
-https://github.com/blueimp/jQuery-File-Upload
+
+
+## jquery 플러그인
+* [blueimp](https://github.com/blueimp/jQuery-File-Upload)
+
+
+* https://ckeditor.com/
+* https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:com:v3:cmm:wysiwygeditor
+* http://localhost/egov/utl/wed/insertImage.do
