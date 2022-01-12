@@ -11,6 +11,8 @@ docs:
         url: /spring/aws/
       - title: "ojdbc"
         url: /spring/ojdbc/
+      - title: "file upload"
+        url: /spring/fileupload/        
       - title: "jpa"
         url: /spring/spring_data_jpa/
 
