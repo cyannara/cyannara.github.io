@@ -6,11 +6,10 @@ tags: [jpa]
 toc: true
 ---
 
-## JPA와 hibernate, Spring Data JPA와 관계  
+## JPA
+![JPA와 hibernate, Spring Data JPA와 관계](https://suhwan.dev/images/jpa_hibernate_repository/overall_design.png)
 
-* JPA  
- Java Persistence API의 약자로, 자바 어플리케이션에서 관계형 데이터베이스를 사용하는 방식을 정의한 인터페이스이다. JPA는 단순히 명세이기 때문에 구현이 없다.
- ![](https://suhwan.dev/images/jpa_hibernate_repository/overall_design.png)
+* Java Persistence API의 약자로, 자바 어플리케이션에서 관계형 데이터베이스를 사용하는 방식을 정의한 인터페이스이다. JPA는 단순히 명세이기 때문에 구현이 없다.
 
  * JPA의 핵심이 되는 EntityManager 구성은 다음과 같다
 
