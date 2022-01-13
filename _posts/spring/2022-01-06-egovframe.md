@@ -42,26 +42,26 @@ toc: true
 6. component-scan 위치 추가
     1. resources\egovframework\spring\com\context-common.xml 파일에서 "mes" 패키지 추가
     2. webapp\WEB-INF\config\egovframework\springmvc\egov-com-servlet.xml 파일에서 "mes" 패키지 추가
-    `<context:component-scan base-package="egovframework mes">`
+```<context:component-scan base-package="egovframework mes">```
 
-7. mYbatis 설정 변경
+7. Mybatis 설정 변경
     1. typeAlias 경로 추가 
         * resources\egovframework\mapper\config\mapper-config.xml
-        `		<package name="mes"/> `
+```<package name="mes"/> ```
     2.  resources\egovframework\spring\com\context-mapper.xml파일에서  
         * mapperLocations 위치 추가 
-        ```xml
+```xml
       <list>
 				<value>classpath:/egovframework/mapper/com/**/*_${Globals.DbType}.xml</value>
 				<value>classpath:/mes/**/*.xml</value>
 			</list>
-        ```
+```
         * MapperScannerConfigurer 빈 등록하고 basePackage 속성 설정
-      ```xml
+```xml
       <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="mes.**.dao" />
       </bean>
-      ```
+```
 
 8. @responseBody 사용할 수 있게 MessageConveter 등록
 > eGov는 "jsonView"를 사용하고 있음
