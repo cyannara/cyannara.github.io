@@ -6,7 +6,7 @@ tags: [egov]
 toc: true
 ---
 
-## egovframe 프로젝트 생성
+## eGovFrame 프로젝트 
 1. DB 사용자 계정 생성(com/com01)
 
 2. file -> new -> eGovFrame Web Project
