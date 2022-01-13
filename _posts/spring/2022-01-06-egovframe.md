@@ -42,12 +42,16 @@ toc: true
 6. component-scan 위치 추가
     1. resources\egovframework\spring\com\context-common.xml 파일에서 "mes" 패키지 추가
     2. webapp\WEB-INF\config\egovframework\springmvc\egov-com-servlet.xml 파일에서 "mes" 패키지 추가
-```<context:component-scan base-package="egovframework mes">```
+```xml
+<context:component-scan base-package="egovframework mes">
+```
 
 7. Mybatis 설정 변경
     1. typeAlias 경로 추가 
         * resources\egovframework\mapper\config\mapper-config.xml
-```<package name="mes"/> ```
+```xml
+<package name="mes"/> 
+```
     2.  resources\egovframework\spring\com\context-mapper.xml파일에서  
         * mapperLocations 위치 추가 
 ```xml
@@ -81,10 +85,10 @@ toc: true
 	</bean>
 ```
 
-10. 테스트
+9. 테스트
     1. USER/공통12 로 로그인
 
-11. egovFrameTemplate
+10. egovFrameTemplate
     1. table 생성
     2. CRUD Program 실행
     3. 스키마와 테이블 선택
@@ -93,4 +97,3 @@ toc: true
 
 12. 파일업로드
     1. Sequence diagram
-    
