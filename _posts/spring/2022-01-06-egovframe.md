@@ -84,9 +84,13 @@ toc: true
 10. 테스트
     1. USER/공통12 로 로그인
 
-9. egovFrameTemplate
+11. egovFrameTemplate
     1. table 생성
     2. CRUD Program 실행
     3. 스키마와 테이블 선택
     4. 파일(vo, dao, mapper, service, impl, controller, jsp)이 생성될 위치 지정
     5. vo에서 날짜 타입이 있으면 java.sql.Date -> java.util.Date로 변경
+
+12. 파일업로드
+    1. Sequence diagram
+    
