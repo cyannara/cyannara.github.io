@@ -64,6 +64,7 @@ toc: true
       ```
 
 8. @responseBody 사용할 수 있게 MessageConveter 등록
+> eGov는 "jsonView"를 사용하고 있음
     1. egov\src\main\webapp\WEB-INF\config\egovframework\springmvc\egov-com-servlet.xml 파일에 추가
     2. 기존에 있는 "RequestMappingHandlerAdapter" 빈 설정에 "messageConverters" 속성 추가함.
 ```xml
