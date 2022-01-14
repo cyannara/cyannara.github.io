@@ -55,16 +55,16 @@ toc: true
   <package name="mes"/> 
 ```
 ```xml
-      <list>
-				<value>classpath:/egovframework/mapper/com/**/*_${Globals.DbType}.xml</value>
-				<value>classpath:/mes/**/*.xml</value>
-			</list>
+<list>
+	<value>classpath:/egovframework/mapper/com/**/*_${Globals.DbType}.xml</value>
+	<value>classpath:/mes/**/*.xml</value>
+</list>
 ```
         * MapperScannerConfigurer 빈 등록하고 basePackage 속성 설정
 ```xml
-      <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="mes.**.dao" />
-      </bean>
+<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <property name="basePackage" value="mes.**.dao" />
+</bean>
 ```
 
 ## 8. @responseBody 사용할 수 있게 MessageConveter 등록
@@ -73,28 +73,28 @@ toc: true
 2. 기존에 있는 "RequestMappingHandlerAdapter" 빈 설정에 "messageConverters" 속성 추가함.
 
 ```xml
-	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
-		<property name="webBindingInitializer">
-			<bean class="egovframework.com.cmm.web.EgovBindingInitializer" />
-		</property>
-		<property name="messageConverters">
-	        <list>
-	            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter" />
-	            <bean class="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter" />
-	        </list>
-    	</property>
-	</bean>
+<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+	<property name="webBindingInitializer">
+		<bean class="egovframework.com.cmm.web.EgovBindingInitializer" />
+	</property>
+	<property name="messageConverters">
+        <list>
+            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter" />
+            <bean class="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter" />
+        </list>
+	</property>
+</bean>
 ```
 
-9. 테스트
+## 9. 테스트
     1. USER/공통12 로 로그인
 
-10. egovFrameTemplate
+## 10. egovFrameTemplate
     1. table 생성
     2. CRUD Program 실행
     3. 스키마와 테이블 선택
     4. 파일(vo, dao, mapper, service, impl, controller, jsp)이 생성될 위치 지정
     5. vo에서 날짜 타입이 있으면 java.sql.Date -> java.util.Date로 변경
 
-12. 파일업로드
+## 12. 파일업로드
     1. Sequence diagram
