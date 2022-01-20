@@ -48,18 +48,18 @@ toc: true
 ```
 
 ## 7. Mybatis 설정 변경
-* typeAlias 경로 추가 : resources\egovframework\mapper\config\mapper-config.xml
+* typeAlias 경로 추가 : resources\egovframework\mapper\config\mapper-config.xml  
 ```xml
   <package name="mes"/> 
 ```
-* resources\egovframework\spring\com\context-mapper.xml파일에서 mapperLocations 위치 추가 
+* resources\egovframework\spring\com\context-mapper.xml파일에서 mapperLocations 위치 추가  
 ```xml
 <list>
 	<value>classpath:/egovframework/mapper/com/**/*_${Globals.DbType}.xml</value>
 	<value>classpath:/mes/**/*.xml</value>
 </list>
 ```
-* MapperScannerConfigurer 빈 등록하고 basePackage 속성 설정
+* MapperScannerConfigurer 빈 등록하고 basePackage 속성 설정  
 ```xml
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
     <property name="basePackage" value="mes.**.dao" />
@@ -86,7 +86,7 @@ toc: true
 ```
 
 ## 9. 테스트
-    1. USER/공통12 로 로그인
+* USER/공통12 로 로그인
 
 ## 10. egovFrameTemplate
     1. table 생성
@@ -95,9 +95,11 @@ toc: true
     4. 파일(vo, dao, mapper, service, impl, controller, jsp)이 생성될 위치 지정
     5. vo에서 날짜 타입이 있으면 java.sql.Date -> java.util.Date로 변경
 
-## 12. 파일업로드
+## 11. 파일업로드
     1. Sequence diagram
 
+## 12. 메뉴관리, 프로그램관리, 권한관리
+* [메뉴관리](https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:com:v3.10:sym:메뉴관리){target=_blank}
 
 ## maven build 에러 발생시 조치
 * 원인 : encoding 에러 
