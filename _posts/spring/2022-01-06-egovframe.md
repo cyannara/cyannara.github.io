@@ -98,8 +98,10 @@ toc: true
 ## 11. 파일업로드
     1. Sequence diagram
 
-## 12. 메뉴관리, 프로그램관리, 권한관리
-* [메뉴관리](https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:com:v3.10:sym:메뉴관리){target=_blank}
+## 12. [메뉴관리, 프로그램관리, 권한관리](https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:com:v3.10:sym:메뉴관리){target=_blank}
+* 프로그램, 메뉴 등록 : 메뉴관리리스트 -> 일괄등록 -> 엑셀파일선택
+* 롤별 메뉴 생성 : 메뉴생성관리 -> 메뉴생성, 사이트맵생성
+* 롤별 메뉴 조회
 
 ## maven build 에러 발생시 조치
 * 원인 : encoding 에러 
