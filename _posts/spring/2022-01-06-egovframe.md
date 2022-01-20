@@ -97,3 +97,43 @@ toc: true
 
 ## 12. 파일업로드
     1. Sequence diagram
+
+
+## maven build 에러 발생시 조치
+* 원인 : encoding 에러 
+    * 조치방법 : pom.xml 에 <encoding>UTF-8</encoding> 설정 추가
+
+
+* 원인 : Blocked mirror for repositories error 발생 
+    * 조치방법 : C:\dev\apache-maven-3.8.4\conf\setting.xml 파일에 mirror 설정 추가
+
+```xml
+	<mirror>
+      <id>jaspersoft-third-party</id>
+      <mirrorOf>jaspersoft-third-party</mirrorOf>
+      <name>jaspersoft-third-party</name>
+      <url>http://jaspersoft.jfrog.io/jaspersoft/third-party-ce-artifacts/</url>
+	  <blocked>false</blocked>
+    </mirror>
+	<mirror>
+      <id>egovframe</id>
+      <mirrorOf>egovframe</mirrorOf>
+      <name>egovframe</name>
+      <url>http://maven.egovframe.go.kr/maven/</url>
+	  <blocked>false</blocked>
+    </mirror>
+	<mirror>
+      <id>egovframe_old1</id>
+      <mirrorOf>egovframe_old1</mirrorOf>
+      <name>egovframe_old1</name>
+      <url>http://maven.egovframe.kr:8080/maven/</url>
+	  <blocked>false</blocked>
+    </mirror>	
+	<mirror>
+      <id>egovframe_old2</id>
+      <mirrorOf>egovframe_old2</mirrorOf>
+      <name>egovframe_old2</name>
+      <url>http://www.egovframe.go.kr/maven/</url>
+	  <blocked>false</blocked>
+    </mirror>
+```
