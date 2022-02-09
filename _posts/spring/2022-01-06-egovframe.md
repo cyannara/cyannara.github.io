@@ -48,18 +48,18 @@ toc: true
 ```
 
 ## 7. Mybatis 설정 변경
-* typeAlias 경로 추가 : resources\egovframework\mapper\config\mapper-config.xml
+* typeAlias 경로 추가 : resources\egovframework\mapper\config\mapper-config.xml  
 ```xml
   <package name="mes"/> 
 ```
-* resources\egovframework\spring\com\context-mapper.xml파일에서 mapperLocations 위치 추가 
+* resources\egovframework\spring\com\context-mapper.xml파일에서 mapperLocations 위치 추가  
 ```xml
 <list>
 	<value>classpath:/egovframework/mapper/com/**/*_${Globals.DbType}.xml</value>
 	<value>classpath:/mes/**/*.xml</value>
 </list>
 ```
-* MapperScannerConfigurer 빈 등록하고 basePackage 속성 설정
+* MapperScannerConfigurer 빈 등록하고 basePackage 속성 설정  
 ```xml
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
     <property name="basePackage" value="mes.**.dao" />
@@ -86,7 +86,7 @@ toc: true
 ```
 
 ## 9. 테스트
-    1. USER/공통12 로 로그인
+* USER/공통12 로 로그인
 
 ## 10. egovFrameTemplate
     1. table 생성
@@ -95,5 +95,49 @@ toc: true
     4. 파일(vo, dao, mapper, service, impl, controller, jsp)이 생성될 위치 지정
     5. vo에서 날짜 타입이 있으면 java.sql.Date -> java.util.Date로 변경
 
-## 12. 파일업로드
+## 11. 파일업로드
     1. Sequence diagram
+
+## 12. [메뉴관리, 프로그램관리, 권한관리](https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:com:v3.10:sym:메뉴관리){target=_blank}
+* 프로그램, 메뉴 등록 : 메뉴관리리스트 -> 일괄등록 -> 엑셀파일선택
+* 롤별 메뉴 생성 : 메뉴생성관리 -> 메뉴생성, 사이트맵생성
+* 롤별 메뉴 조회
+
+## maven build 에러 발생시 조치
+* 원인 : encoding 에러 
+    * 조치방법 : pom.xml 에 <encoding>UTF-8</encoding> 설정 추가
+
+
+* 원인 : Blocked mirror for repositories error 발생 
+    * 조치방법 : C:\dev\apache-maven-3.8.4\conf\setting.xml 파일에 mirror 설정 추가
+
+```xml
+	<mirror>
+      <id>jaspersoft-third-party</id>
+      <mirrorOf>jaspersoft-third-party</mirrorOf>
+      <name>jaspersoft-third-party</name>
+      <url>http://jaspersoft.jfrog.io/jaspersoft/third-party-ce-artifacts/</url>
+	  <blocked>false</blocked>
+    </mirror>
+	<mirror>
+      <id>egovframe</id>
+      <mirrorOf>egovframe</mirrorOf>
+      <name>egovframe</name>
+      <url>http://maven.egovframe.go.kr/maven/</url>
+	  <blocked>false</blocked>
+    </mirror>
+	<mirror>
+      <id>egovframe_old1</id>
+      <mirrorOf>egovframe_old1</mirrorOf>
+      <name>egovframe_old1</name>
+      <url>http://maven.egovframe.kr:8080/maven/</url>
+	  <blocked>false</blocked>
+    </mirror>	
+	<mirror>
+      <id>egovframe_old2</id>
+      <mirrorOf>egovframe_old2</mirrorOf>
+      <name>egovframe_old2</name>
+      <url>http://www.egovframe.go.kr/maven/</url>
+	  <blocked>false</blocked>
+    </mirror>
+```
