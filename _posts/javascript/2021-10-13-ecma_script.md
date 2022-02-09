@@ -10,7 +10,8 @@ categories: javascript
   * [모던 JavaScript 튜토리얼](https://ko.javascript.info/){:target="_blank"} 
   * [w3schools](http://w3schools.com){:target="_blank"} 
   * [developer-readmap](https://github.com/kamranahmedse/developer-roadmap){:target="_blank"} [developer-readmap](https://roadmap.sh/)
-  * [ecma standard](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+  * [ecma standard](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/){:target="_blank"} 
+  * [fetch 모질라](https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Using_Fetch){:target="_blank"} 
 
 ## 자바스크립트 버전 [(참고사이트)](https://www.greycampus.com/blog/programming/java-script-versions){:target="_blank"} 
   * ES5    = ES5(2009년) : callback/JSON/getter,setter/Date.now() 
