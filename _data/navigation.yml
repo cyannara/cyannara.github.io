@@ -21,7 +21,7 @@ docs:
   - title: javascript
     children:
       - title: "vs code"
-        url: /javascript/vs_code/
+        url: /javascript/vscode_shortcut/
       - title: "git"      
         url: /javascript/vscode_git/
       - title: "devtools"
@@ -42,6 +42,8 @@ docs:
         url: /javascript/promise/  
       - title: "js review schedule"
         url: /javascript/js_review/
+      - title: "event"
+        url: /javascript/event/        
       # - title: "dom bom"
       #   url: /javascript/bom_dom/
 
