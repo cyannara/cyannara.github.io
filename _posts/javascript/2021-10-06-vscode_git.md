@@ -6,22 +6,18 @@ categories: javascript
 
 ## GitHub에서 복제(clone)
 
-### 1. github에서 리포지토리 생성
+1. github에서 리포지토리 생성
 
-### 2. github repository clone
-
+2. github repository clone
 F1  => 'git clone' 입력  => 'Git: Clone' 메뉴 선택   => 리포지토리 선택  => 로컬에 저장될 위치 지정
 
-### 3. add stage
-
+3. add stage
 ![add](/img/javascript/vs_git_01.png){:target="_blank"}  
 
-### 4. commit
-
+4. commit
 ![commit](/img/javascript/vs_git_02.png){:target="_blank"}  
 
-### 5. push
-
+5. push
 ![push](/img/javascript/vs_git_03.png){:target="_blank"}  
 
 ## 터미널에서 github clone 연동  
@@ -34,14 +30,13 @@ F1  => 'git clone' 입력  => 'Git: Clone' 메뉴 선택   => 리포지토리 �
 
 ## 로컬 폴더를 github로 올리기
 
-### 1. 로컬폴더를 git init로 초기화
-
+1. 로컬폴더를 git init로 초기화
 F1  => 'git init' 입력  => 로컬 폴더 선택
 ![add](/img/javascript/vs_git_04.png){:target="_blank"}  
 
-### 2.  [Source controll]에서 add -> commit
+2. [Source controll]에서 add -> commit
 
-### 3. [Source controll] 에서 publish
+3. [Source controll] 에서 publish
 
 ## pull request
 
