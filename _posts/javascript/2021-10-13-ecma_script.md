@@ -52,4 +52,3 @@ arguments / await / break / case / catcl / class / const / debuffer / default / 
 * 원시형 데이터 타입 : 숫자형/문자형('')/불리언(true,false)/심볼형/null/undefined
 * `심볼형` : 문자열 안지를 받아 고유한 키 값을 생성. 같은 인자를 넘겨도 다른 키 값이 생성. 객체의 속성 키로 사용함.Symbile('문자값') 
 * 참조형 데이터 타입 : 객체(함수, 배열, 맵, 집합)
-
