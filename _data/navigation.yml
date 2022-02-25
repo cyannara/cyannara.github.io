@@ -55,6 +55,9 @@ docs:
       - title: "vue 시작"
         url: /vue/first/              
 
+      - title: "vue-cli"
+        url: /vue/vuecli/   
+
       - title: "component"
         url: /vue/component/  
 
