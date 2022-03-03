@@ -44,6 +44,34 @@ categories: javascript
 | ajax           | XMLHttpRequest 객체,  fetch()                   | $.ajax(),  $.post(),  $.get(),  $.getJson()        |
 |                |                                                 | $("div").load(url)                                 |
 
+## dom 객체와 jQuery 객체 변환
+
+```javascript
+//dom 객체
+var btn = document.getElementById("btn1");
+btn.style.backgroundColor = 'red'
+
+//jquery 객체
+var $btn = $("#btn1");
+$btn.css("backgroundColor","blue")
+
+//dom => jquery   : $()로 감쌈
+$(btn).css("backgroundColor","blue")
+
+//jquery => dom   : get(0) 함수
+$btn[0].style.backgroundColor = 'red'
+$btn.get(0).style.backgroundColor = 'red'
+
+//
+$("div").eq(0)    // jquery
+$("div")[0]       // dom
+$("div").get(0)   //dom
+$("div").each(function(idx, item){   //dom
+  $(item)
+  $(this)
+})
+```
+
 ## AJAX
 
 1. to do list
