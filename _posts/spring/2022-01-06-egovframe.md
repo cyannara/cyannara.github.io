@@ -103,6 +103,11 @@ toc: true
 * 롤별 메뉴 생성 : 메뉴생성관리 -> 메뉴생성, 사이트맵생성
 * 롤별 메뉴 조회
 
+## eGovFrame Template Project
+* error 원인 : FORMAT_DATE
+D:\eGovFrameDev-4.0.0-64bit\workspace\potal\src\main\resources\egovframework\mapper\let\uss\olp\qri\EgovQustnrRespondInfo_SQL_oracle.xml 파일에서 DATE_FORMAT() 함수를 TO_CHAR()로 수정
+* 접속계정 :  user1/1 , admin/1
+
 ## maven build 에러 발생시 조치
 * 원인 : encoding 에러 
     * 조치방법 : pom.xml 에 <encoding>UTF-8</encoding> 설정 추가
