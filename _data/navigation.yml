@@ -72,3 +72,8 @@ docs:
         url: /python/python/       
       - title: "python web"
         url: /python/python_web/    
+
+  - title: DB
+    children:
+      - title: "sql"
+        url: /db/sql/          
