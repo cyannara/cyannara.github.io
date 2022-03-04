@@ -88,30 +88,17 @@ toc: true
 ## 9. 테스트
 * USER/공통12 로 로그인
 
-## 10. egovFrameTemplate
-    1. table 생성
-    2. CRUD Program 실행
-    3. 스키마와 테이블 선택
-    4. 파일(vo, dao, mapper, service, impl, controller, jsp)이 생성될 위치 지정
-    5. vo에서 날짜 타입이 있으면 java.sql.Date -> java.util.Date로 변경
-
-## 11. 파일업로드
+## 10. 파일업로드
     1. Sequence diagram
 
-## 12. [메뉴관리, 프로그램관리, 권한관리](https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:com:v3.10:sym:메뉴관리){target=_blank}
+## 11. [메뉴관리, 프로그램관리, 권한관리](https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:com:v3.10:sym:메뉴관리){target=_blank}
 * 프로그램, 메뉴 등록 : 메뉴관리리스트 -> 일괄등록 -> 엑셀파일선택
 * 롤별 메뉴 생성 : 메뉴생성관리 -> 메뉴생성, 사이트맵생성
 * 롤별 메뉴 조회
 
-## eGovFrame Template Project
-* error 원인 : FORMAT_DATE
-D:\eGovFrameDev-4.0.0-64bit\workspace\potal\src\main\resources\egovframework\mapper\let\uss\olp\qri\EgovQustnrRespondInfo_SQL_oracle.xml 파일에서 DATE_FORMAT() 함수를 TO_CHAR()로 수정
-* 접속계정 :  user1/1 , admin/1
-
 ## maven build 에러 발생시 조치
 * 원인 : encoding 에러 
     * 조치방법 : pom.xml 에 <encoding>UTF-8</encoding> 설정 추가
-
 
 * 원인 : Blocked mirror for repositories error 발생 
     * 조치방법 : C:\dev\apache-maven-3.8.4\conf\setting.xml 파일에 mirror 설정 추가
@@ -146,3 +133,15 @@ D:\eGovFrameDev-4.0.0-64bit\workspace\potal\src\main\resources\egovframework\map
 	  <blocked>false</blocked>
     </mirror>
 ```
+
+## 12. egovFrameTemplate
+    1. table 생성
+    2. CRUD Program 실행
+    3. 스키마와 테이블 선택
+    4. 파일(vo, dao, mapper, service, impl, controller, jsp)이 생성될 위치 지정
+    5. vo에서 날짜 타입이 있으면 java.sql.Date -> java.util.Date로 변경
+
+* error 원인 : FORMAT_DATE
+D:\eGovFrameDev-4.0.0-64bit\workspace\potal\src\main\resources\egovframework\mapper\let\uss\olp\qri\EgovQustnrRespondInfo_SQL_oracle.xml 파일에서 DATE_FORMAT() 함수를 TO_CHAR()로 수정
+
+* 접속계정 :  user1/1 , admin/1
