@@ -22,7 +22,7 @@ toc: true
 | public <T> T find(Class<T> entityClass, Object primaryKey) | 조회                |
 
 * [hibernate](http://hibernate.org/orm/documentation/5.4/)  
-JPA라는 명세의 구현체로  Hibernate의 작동 방식이 마음에 들지 않는다면 언제든지 DataNucleus, EclipseLink 등 다른 JPA 구현체를 사용해도 된다.  
+JPA라는 명세의 구현체로 Hibernate의 작동 방식이 마음에 들지 않는다면 언제든지 DataNucleus, EclipseLink 등 다른 JPA 구현체를 사용해도 된다.  
 
 * [Spring Data JPA](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#reference)  
 JPA를 쓰기 편하게 만들어놓은 모듈이다. Spring에서 제공하는 모듈 중 하나로, 개발자가 JPA를 더 쉽고 편하게 사용할 수 있도록 도와준다. 이는 JPA를 한 단계 추상화시킨 Repository라는 인터페이스를 제공함으로써 이루어진다.
