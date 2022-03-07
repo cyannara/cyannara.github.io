@@ -7,6 +7,8 @@ categories: java
 
 참고사이트 : https://docs.oracle.com/javase/tutorial/java/generics/index.html  
 
+[My-Batis](https://velog.io/@eesiwoo/My-Batis)
+
 
 
 
