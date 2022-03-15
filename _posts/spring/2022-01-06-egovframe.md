@@ -56,18 +56,22 @@ src\main\resources\egovframework\mapper\let\uss\olp\qri\EgovQustnrRespondInfo_SQ
 ```
 
 ### 7. Mybatis 설정 변경
-* typeAlias 경로 추가 : resources\egovframework\mapper\config\mapper-config.xml  
+1. typeAlias 경로 추가 : resources\egovframework\mapper\config\mapper-config.xml  
+
 ```xml
   <package name="mes"/> 
 ```
-* resources\egovframework\spring\com\context-mapper.xml파일에서 mapperLocations 위치 추가  
+2. resources\egovframework\spring\com\context-mapper.xml파일에서 mapperLocations 위치 추가  
+
 ```xml
 <list>
 	<value>classpath:/egovframework/mapper/com/**/*_${Globals.DbType}.xml</value>
 	<value>classpath:/mes/**/*.xml</value>
 </list>
 ```
-* MapperScannerConfigurer 빈 등록하고 basePackage 속성 설정  
+
+3. MapperScannerConfigurer 빈 등록하고 basePackage 속성 설정  
+
 ```xml
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
     <property name="basePackage" value="mes.**.dao" />
