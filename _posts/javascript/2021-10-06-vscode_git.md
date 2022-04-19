@@ -5,19 +5,26 @@ categories: javascript
 ---
 
 ## GitHub에서 복제(clone)
+1. git 설치하고 path 추가
 
-1. github에서 리포지토리 생성
+2. [이름과 이메일을 설정](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup){:target="_blank"}  
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
+   
+3. github에서 리포지토리 생성
 
 2. github repository clone
 F1  => 'git clone' 입력  => 'Git: Clone' 메뉴 선택   => 리포지토리 선택  => 로컬에 저장될 위치 지정
 
-3. add stage
+4. add stage
 ![add](/img/javascript/vs_git_01.png){:target="_blank"}  
 
-4. commit
+5. commit
 ![commit](/img/javascript/vs_git_02.png){:target="_blank"}  
 
-5. push
+6. push
 ![push](/img/javascript/vs_git_03.png){:target="_blank"}  
 
 ## 터미널에서 github clone 연동  
