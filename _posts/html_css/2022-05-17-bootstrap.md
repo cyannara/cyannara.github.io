@@ -1,7 +1,7 @@
 ---
 title: "bootstrap"
 date: 2021-10-06
-categories: hyml_css  
+categories: html_css  
 ---
 
 a. modal  
