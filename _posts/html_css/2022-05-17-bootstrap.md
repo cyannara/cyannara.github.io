@@ -5,7 +5,8 @@ categories: html_css
 ---
 
 a. modal  
-   1. modal.html
+   1. modal.html  
+
 ```html
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" >
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" ></script>
@@ -22,8 +23,10 @@ a. modal
 		}) 
 	});
 </script>
-```
-   2. popup.html
+```  
+
+   2. popup.html  
+
 ```html
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
