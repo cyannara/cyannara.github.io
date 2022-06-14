@@ -46,8 +46,8 @@ docs:
         url: /javascript/js_review/
       - title: "event"
         url: /javascript/event/        
-      # - title: "dom bom"
-      #   url: /javascript/bom_dom/
+      - title: "dom bom"
+        url: /javascript/bom_dom/
 
   - title: vue
     children:
