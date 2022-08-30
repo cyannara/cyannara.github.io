@@ -10,6 +10,9 @@ categories: javascript
 
 * [emmet](https://docs.emmet.io/){:target="_blank"}  
 
+## 참조사이트
+  * [메뉴얼](https://code.visualstudio.com/docs)
+  * [단축키](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
 ## 단축키
 
