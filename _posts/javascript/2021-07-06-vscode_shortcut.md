@@ -10,17 +10,23 @@ categories: javascript
 
 * [emmet](https://docs.emmet.io/){:target="_blank"}  
 
+## 참조사이트
+  * [메뉴얼](https://code.visualstudio.com/docs)
+  * [단축키](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
 ## 단축키
 
 | 기능                             | 단축키                  |
 | -------------------------------- | :---------------------- |
+| 명령어 입력                      | F1                      |
 | TERMINAL                         | Ctrl + `                |
 | Settings                         | Ctrl + ,                |  
 | 소스 format                      | Ctrl + ;                |  
 | 검색(현재파일)                   | Ctrl + F                |
 | 주석                             | Ctrl + /                |
 | 검색(전체파일)                   | Ctrl + Shift + F        |
+| 함수정의문으로 이동              | F12                     |
+| 함수정의문 엿보기                | alt + F12               |
 | Open Preview(MD)                 | Ctrl + Shift + V        |
 | open in default browser          | Alt + B                 |
 | open in specified browser        | Shift + Alt + B         |
