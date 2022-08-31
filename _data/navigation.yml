@@ -23,7 +23,7 @@ docs:
       - title: "docker"
         url: /cloud/docker/
       - title: "aws"
-        url: /docker/aws/
+        url: /cloud/aws/
 
   - title: javascript
     children:
