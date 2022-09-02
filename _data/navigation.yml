@@ -9,8 +9,6 @@ docs:
         url: /spring/lombok/
       - title: "tiles"
         url: /spring/tiles/
-      - title: "aws"
-        url: /spring/aws/
       - title: "ojdbc"
         url: /spring/ojdbc/
       - title: "file upload"
@@ -19,6 +17,13 @@ docs:
         url: /spring/spring_data_jpa/
       - title: "eGovFrame"
         url: /spring/egovframe/
+
+  - title: 배포
+    children:
+      - title: "docker"
+        url: /cloud/docker/
+      - title: "aws"
+        url: /cloud/aws/
 
   - title: javascript
     children:
