@@ -24,6 +24,10 @@ docs:
         url: /cloud/docker/
       - title: "aws"
         url: /cloud/aws/
+      - title: "virtualbox"
+        url: /cloud/virtualbox/
+      - title: "jenkins"
+        url: /cloud/jenkins/
 
   - title: javascript
     children:
@@ -53,7 +57,8 @@ docs:
         url: /javascript/event/        
       - title: "dom bom"
         url: /javascript/bom_dom/
-
+      - title: "plugin"
+        url: /javascript/plugin/
   - title: jsp
     children:
       - title: "maven"
