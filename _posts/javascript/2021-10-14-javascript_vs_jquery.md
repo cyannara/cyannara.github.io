@@ -65,13 +65,21 @@ $(btn).css("backgroundColor","blue")
 $btn[0].style.backgroundColor = 'red'
 $btn.get(0).style.backgroundColor = 'red'
 
-//
 $("div").eq(0)    // jquery
 $("div")[0]       // dom
 $("div").get(0)   // dom
-$("div").each(function(idx, item){   //dom
-  $(item)         // jQuery
-  $(this)
+
+//each 반복문 안에서 객체 타입
+$("div").each(function(idx, item){   
+  item            // dom 객체
+  $(item)         // jQuery 객체
+  $(this)         // jQuery 객체
+})
+
+//each 반복중단
+$.each(arr, function(idx, item){
+  return;         // continue
+  return false;   // beak
 })
 ```
 
