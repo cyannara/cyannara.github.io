@@ -5,6 +5,11 @@ categories: cloud
 tags: [virtualbox]
 ---
 
+##virtualBox 설정
+* 복사 붙여넣기 
+  - 가상머신 -> 장치 -> 게스트확장 CD 이미지 삽입... (설치필요)
+  - 가상머진 -> 설정 -> 일반 -> 고급 -> 클립보드공유 -> "양방향"으로 변경
+  
 ## [ubuntu 설치](https://www.osboxes.org/ubuntu/){:target="_blank"}
 
 - 관리자 계정
