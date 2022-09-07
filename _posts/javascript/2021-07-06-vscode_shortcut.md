@@ -33,5 +33,5 @@ categories: javascript
 | 한줄 복사                        | Shift + Alt + ↑ or ↓    |
 | 한줄 삭제                        | Ctrl + shift + k        |
 | 한줄 이동                        | Alt + ↑ or ↓            |
-| 세로선택                         | Shift + Alt + 드래그    |
+| 세로 선택                        | Shift + Alt + 드래그    |
 
