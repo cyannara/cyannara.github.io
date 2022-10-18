@@ -15,16 +15,16 @@ $ git config --global user.email johndoe@example.com
    
 3. github에서 리포지토리 생성
 
-2. github repository clone
+4. github repository clone
 F1  => 'git clone' 입력  => 'Git: Clone' 메뉴 선택   => 리포지토리 선택  => 로컬에 저장될 위치 지정
 
-4. add stage
+5. add stage  
 ![add](/img/javascript/vs_git_01.png){:target="_blank"}  
 
-5. commit
+6. commit  
 ![commit](/img/javascript/vs_git_02.png){:target="_blank"}  
 
-6. push
+7. push  
 ![push](/img/javascript/vs_git_03.png){:target="_blank"}  
 
 ## 터미널에서 github clone 연동  

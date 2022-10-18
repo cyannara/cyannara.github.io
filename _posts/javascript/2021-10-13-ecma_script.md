@@ -24,7 +24,7 @@ categories: javascript
 * ES2019 = ES10
 * ES2020 = ES11
 * 매년 6월에 새 버전이 나옴
-* eclipse는 EcmaScript 6을 지원
+* eclipse는 EcmaScript 6을 지원RRR
 * `바벨(Babel)` : 자바스크립트 코드를 구 표준을 준수하는 코드로 바꿔줌. async/await를 지원하지 않는 브라우저를 만나면 Babel은 이전 브라우저에서 작동하는 polyfill를 자동으로 제공합니다.
 * `폴리필(polyfill)` : 변경된 표준을 준수할 수 있게 기존 함수의 동작 방식을 수정하거나, 새롭게 구현한 함수의 스크립트를 폴리필이라 부름. 구현이 누락된 새로운 기능을 메꿔주는 역할.
 
@@ -52,3 +52,53 @@ arguments / await / break / case / catcl / class / const / debuffer / default / 
 * 원시형 데이터 타입 : 숫자형/문자형('')/불리언(true,false)/심볼형/null/undefined
 * `심볼형` : 문자열 안지를 받아 고유한 키 값을 생성. 같은 인자를 넘겨도 다른 키 값이 생성. 객체의 속성 키로 사용함.Symbile('문자값') 
 * 참조형 데이터 타입 : 객체(함수, 배열, 맵, 집합)
+
+
+
+## 모듈
+* [참고사이트](https://velog.io/@jjunyjjuny/ES-Modules-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0){:target="_blank"}
+* `캡슐화` : 모듈 안의 모든 기능들은 모듈 안에서만 동작하며, 모듈 밖에서는 접근이 허용된 속성이나 메서드만 사용가능
+* 모듈의 변수, 함수 클래스 등은 `export` 키워드로 노출하고 `import`로 가져다 사용한다.
+* 파일 단위로 모듈이 구성되며 코드 묶음 단위이다.
+* ES5에서는 모듈 개념이 없어서 즉시실행함수를 사용했음  
+* 모듈은 순환참조할 수 없다.
+* IE 브라우저는 지원안함.
+* 테스트하려면 서버환경에서 필요함
+* 모듈도 하나의 객체로서 임포트 시점에 모듈객체의 참조 주소를 변수에 할당
+
+```js
+//1. default 키워드로 모듈의 반환기본값 설정 (모듈 하나만 임포트) 
+import defaultModule from './18_module.js'
+```
+
+```js
+//2. 임포트할 모듈을 {}에 나열
+import {moduleA, moduleB, moduleC} from './18_module.js'
+console.log(moduleA)
+moduleB('module run~~');
+const modulec = new moduleC();
+```
+
+```js
+//3. 모든 모듈을 불러올 경우 반드시 새 모듈 이름을 지정 
+import * as myModule from './18_module.js'
+console.log(myModule.moduleA)
+myModule.moduleB('module run~~');
+const modulec = new myModule.moduleC();
+```
+
+```js
+export const moduleA = 'moduleA';
+export function moduleB(msg){
+    console.log('msg:'+ msg);
+}
+export class moduleC{
+    constructor() {
+        console.log('module C');
+    }
+}
+```
+
+```js
+export {moduleA, moduleB, moduleC}
+```
