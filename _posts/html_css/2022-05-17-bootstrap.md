@@ -13,14 +13,11 @@ a. modal
 <button type="button" class="btn btn-primary" id="btnModal" > Launch demo modal</button>
 <div id="test"></div>
 <script>
-	btnModal.addEventListener("click", function(){
- 		fetch("popup.jsp")
-		.then(res => res.text())
-		.then(res => {
-			document.getElementById("test").innerHTML = res;
-			const myModal = new bootstrap.Modal('#exampleModal');
-			myModal.show()
-		}) 
+		btnModal.addEventListener("click", function(){
+			$("#test").load("popup.jsp", function(){
+				const myModal = new bootstrap.Modal('#exampleModal');
+				myModal.show();
+			})
 	});
 </script>
 ```  
@@ -46,6 +43,18 @@ a. modal
     </div>
   </div>
 </div>
+<script>
+$(function(){
+	const Grid = tui.Grid;
+	const instance = new Grid({
+	  el: document.getElementById('grid2'), // Container element
+	  columns: [  ... ]
+	});
+	
+  //그리드가 랜더링이 끝나고 refresh 하도록 함.
+	setTimeout(function(){	instance.refreshLayout(); 	}, 200)
+})
+</script>
 ```   
 
 b. grid  
