@@ -59,6 +59,7 @@ docs:
         url: /javascript/bom_dom/
       - title: "plugin"
         url: /javascript/plugin/
+
   - title: jsp
     children:
       - title: "maven"
@@ -87,6 +88,8 @@ docs:
         url: /python/python/       
       - title: "python web"
         url: /python/python_web/    
+      - title: "python vs java"
+        url: /python/python_java_comp/    
 
   - title: DB
     children:
