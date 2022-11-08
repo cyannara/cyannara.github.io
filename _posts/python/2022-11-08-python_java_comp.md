@@ -48,8 +48,8 @@ print("Hello");
 변수유형을 선언할 필요가 없는 동적 유형으로서 런타임 시에 값이 대입될 때 유형이 결정된다.
 
 ## 자바와 파이썬 
- ![자바와 파이썬 비교]("/img/python/python_vs_java.png"){:width="600px"}  
+ ![자바와 파이썬 비교](/img/python/python_vs_java.png){:width="600px"}  
 
 
 ## 절차지향과 객체지향 비교
- ![절차지향과 객체지향 비교]("/img/python/proc_vs_obj.png"){:width="600px"}  
+ ![절차지향과 객체지향 비교](/img/python/proc_vs_obj.png){:width="600px"}  
