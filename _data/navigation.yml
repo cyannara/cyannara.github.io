@@ -1,4 +1,38 @@
 docs:
+
+  - title: javascript
+    children:
+      - title: "키보드 특수문자 이름"
+        url: /javascript/keyName/   
+      - title: "vs code 단축키"
+        url: /javascript/vscode_shortcut/
+      - title: "git"      
+        url: /javascript/vscode_git/
+      - title: "devtools"
+        url: /javascript/devtools/
+      - title: "ecma_script"
+        url: /javascript/ecma_script/
+      - title: "js vs jquery"
+        url: /javascript/javascript_vs_jquery/
+      - title: "array"
+        url: /javascript/array/ 
+      - title: "string"
+        url: /javascript/string/       
+      - title: "class"
+        url: /javascript/class/
+      - title: "function"
+        url: /javascript/function/      
+      - title: "promise"
+        url: /javascript/promise/  
+      - title: "js review schedule"
+        url: /javascript/js_review/
+      - title: "event"
+        url: /javascript/event/        
+      - title: "dom bom"
+        url: /javascript/bom_dom/
+      - title: "plugin"
+        url: /javascript/plugin/
+
   - title: spring
     children:
       - title: "환경설정"
@@ -28,37 +62,6 @@ docs:
         url: /cloud/virtualbox/
       - title: "jenkins"
         url: /cloud/jenkins/
-
-  - title: javascript
-    children:
-      - title: "vs code 단축키"
-        url: /javascript/vscode_shortcut/
-      - title: "git"      
-        url: /javascript/vscode_git/
-      - title: "devtools"
-        url: /javascript/devtools/
-      - title: "ecma_script"
-        url: /javascript/ecma_script/
-      - title: "js vs jquery"
-        url: /javascript/javascript_vs_jquery/
-      - title: "array"
-        url: /javascript/array/ 
-      - title: "string"
-        url: /javascript/string/       
-      - title: "class"
-        url: /javascript/class/
-      - title: "function"
-        url: /javascript/function/      
-      - title: "promise"
-        url: /javascript/promise/  
-      - title: "js review schedule"
-        url: /javascript/js_review/
-      - title: "event"
-        url: /javascript/event/        
-      - title: "dom bom"
-        url: /javascript/bom_dom/
-      - title: "plugin"
-        url: /javascript/plugin/
 
   - title: jsp
     children:
@@ -97,9 +100,7 @@ docs:
         url: /db/sql/      
 
   - title: JAVA
-    children:
-      - title: "키보드 특수문자 이름"
-        url: /java/keyName/     
+    children:  
       - title: "document"
         url: /java/document/    
       - title: "eclipse환경설정"
