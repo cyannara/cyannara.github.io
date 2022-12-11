@@ -31,7 +31,7 @@ docs:
 
   - title: javascript
     children:
-      - title: "vs code"
+      - title: "vs code 단축키"
         url: /javascript/vscode_shortcut/
       - title: "git"      
         url: /javascript/vscode_git/

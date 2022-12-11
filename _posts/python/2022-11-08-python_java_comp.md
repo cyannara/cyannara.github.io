@@ -17,9 +17,12 @@ tags: [python]
 | 리스트         | emps = ["홍", "김"]              | List emps = Arrays.asList("홍", "김");  |
 |                | emps = list()                    | List emps = new ArrayList()             |
 |                | emps.append("apple")             | emps.add("apple")                       |
+| 딕셔너리       | info = {'name':'hong','age':20}  | HashMap info = new HashMap();           |
+|                |                                  | info.put("name","hong");                |
+|                | info.addr = '대구'               | info.put("addr","대구")                 |
 | 스트링         | name = str()                     | String name = new String()              |
 |                | name = "hong"                    | String name = "hong"                    |
-|                | print( name.toUpper() )          | System.out.print( name.toUpper() )      |
+|                | print( name.upper() )            | System.out.print( name.toUpper() )      |
 |                |                                  |                                         |
 |                |                                  |                                         |
 

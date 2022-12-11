@@ -7,14 +7,10 @@ categories: javascript
 ## markdown
 
 * [Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown){:target="_blank"}  
-
 * [emmet](https://docs.emmet.io/){:target="_blank"}  
+* [메뉴얼](https://code.visualstudio.com/docs){:target="_blank"}
 
-## 참조사이트
-  * [메뉴얼](https://code.visualstudio.com/docs)
-  * [단축키](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
-
-## 단축키
+## [단축키](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf){:target="_blank"}
 
 | 기능                             | 단축키                  |
 | -------------------------------- | :---------------------- |
