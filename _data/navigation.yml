@@ -6,14 +6,12 @@ docs:
         url: /javascript/keyName/   
       - title: "vs code 단축키"
         url: /javascript/vscode_shortcut/
-      - title: "git"      
+      - title: "git 사용법"      
         url: /javascript/vscode_git/
       - title: "devtools"
         url: /javascript/devtools/
       - title: "ecma_script"
         url: /javascript/ecma_script/
-      - title: "js vs jquery"
-        url: /javascript/javascript_vs_jquery/
       - title: "array"
         url: /javascript/array/ 
       - title: "string"
@@ -32,6 +30,8 @@ docs:
         url: /javascript/bom_dom/
       - title: "plugin"
         url: /javascript/plugin/
+      - title: "js vs jquery"
+        url: /javascript/javascript_vs_jquery/
 
   - title: spring
     children:
