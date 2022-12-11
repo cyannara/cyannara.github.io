@@ -17,7 +17,8 @@ categories: javascript
 | 명령어 입력                      | F1                      |
 | TERMINAL                         | Ctrl + `                |
 | Settings                         | Ctrl + ,                |  
-| 소스 format                      | Ctrl + ;                |  
+| 소스 format                      | Shift + Alt + F         |  
+| 소스 format(선택범위)            | Ctrl + K + F            |  
 | 검색(현재파일)                   | Ctrl + F                |
 | 주석                             | Ctrl + /                |
 | 검색(전체파일)                   | Ctrl + Shift + F        |
