@@ -65,10 +65,10 @@ docs:
       - title: "jenkins"
         url: /cloud/jenkins/
 
-  - title: jsp
-    children:
-      - title: "maven"
-        url: /jsp/maven/   
+  # - title: jsp
+  #   children:
+  #     - title: "maven"
+  #       url: /jsp/maven/   
 
   - title: vue
     children:
