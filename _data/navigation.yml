@@ -52,12 +52,14 @@ docs:
       - title: "eGovFrame"
         url: /spring/egovframe/
 
-  - title: 배포
+  - title: 클라우드와 배포
     children:
       - title: "docker"
         url: /cloud/docker/
       - title: "aws"
         url: /cloud/aws/
+      - title: "aws 용어"
+        url: /cloud/aws_term/        
       - title: "virtualbox"
         url: /cloud/virtualbox/
       - title: "jenkins"
