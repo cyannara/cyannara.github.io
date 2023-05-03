@@ -99,37 +99,37 @@ social:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "custom"
+  provider               : flase # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : G-LTLXG6K019
+    tracking_id          : 
     anonymize_ip         : true # true, false (default)
 
 
 # Site Author
 author:
-  name             : "yoomi"
+  name             : "yumi"
 #  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
 #  bio              : "I am an amazing person."
 #  location         : "Somewhere"
-  email            :
+  email            : dbaledu@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:dbaledu@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      url: "https://cyannara.github.io"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+#    - label: "Facebook"
+#      icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      url: "https://github.com/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
@@ -141,8 +141,8 @@ footer:
   #  - label: "Facebook"
   #    icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
       # url:
   #  - label: "GitLab"
   #    icon: "fab fa-fw fa-gitlab"
@@ -280,6 +280,9 @@ compress_html:
   ignore:
     envs: development
 
+head_scripts:
+  - https://www.googletagmanager.com/gtag/js?id=G-LTLXG6K019
+  - /assets/js/google_analystic.js
 
 # Defaults
 defaults:
