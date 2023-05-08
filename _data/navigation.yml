@@ -43,10 +43,12 @@ docs:
         url: /spring/lombok/
       - title: "tiles"
         url: /spring/tiles/
-      - title: "ojdbc"
-        url: /spring/ojdbc/
+      - title: "jdbc"
+        url: /spring/jdbc/
       - title: "file upload"
         url: /spring/fileupload/        
+      - title: "jasypt"
+        url: /spring/jasypt/          
       - title: "jpa"
         url: /spring/spring_data_jpa/
       - title: "eGovFrame"
