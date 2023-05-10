@@ -8,9 +8,10 @@ categories: javascript
 1. git 설치하고 path 추가
 
 2. [이름과 이메일을 설정](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup){:target="_blank"}  
-```
+```console
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
+$ git config --list
 ```
    
 3. github에서 리포지토리 생성

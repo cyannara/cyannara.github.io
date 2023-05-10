@@ -88,6 +88,9 @@ docs:
       - title: "component"
         url: /vue/component/  
 
+      - title: "CORS"
+        url: /vue/CORS/  
+
       - title: "node.js"
         url: /vue/nodejs/   
 

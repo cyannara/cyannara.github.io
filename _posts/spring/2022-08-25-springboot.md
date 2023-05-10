@@ -1,3 +1,10 @@
+---
+title: "springboot"
+date: 2022-08-25
+categories: spring  
+tags: [springboot]
+toc: true
+---
 
 ##  로컬, 개발, 서버 각 환경에 맞는 스프링 프로파일 분리
 
