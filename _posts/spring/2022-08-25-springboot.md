@@ -40,3 +40,47 @@ public class ResourceConfiguration implements WebMvcConfigurer {
     }
 }
 ```
+
+## security
+```java
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityCustomizer;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.SecurityFilterChain;
+
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig {
+
+	@Bean
+	public PasswordEncoder bcryptPassword() {
+		return new BCryptPasswordEncoder();
+	}
+	
+	@Bean
+	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+		http.authorizeHttpRequests((requests) -> requests.antMatchers("/home", "/").permitAll().antMatchers("/admin/**")
+				.hasAuthority("ROLE_ADMIN")
+				//.anyRequest().authenticated()
+				.anyRequest().permitAll()
+				)
+				.formLogin(login -> login.defaultSuccessUrl("/home").loginPage("/login").usernameParameter("userid")
+						.permitAll())
+				.logout().logoutUrl("/logout").logoutSuccessUrl("/home").permitAll()
+		// .and()
+		// .csrf().disable();
+		;
+		return http.build();
+	}
+
+
+	@Bean
+	public WebSecurityCustomizer webSecurityCustomizer() {
+		return (web) -> web.ignoring().antMatchers("/images/**", "/js/**", "/css/**");
+	}
+}
+```
