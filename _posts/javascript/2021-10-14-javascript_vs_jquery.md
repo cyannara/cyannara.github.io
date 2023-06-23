@@ -33,12 +33,13 @@ categories: javascript
 |                | 태그.style.display = 'none'   또는 'block'      |      .hide(),  show()                              |
 | class 변경     | 태그.classList.add() / remove() / togger()      | $태그.addClass() / removeClass() / toggleClass()   |
 |                |     .contains("클래스명")                       |      .hasClass("클래스명")                         |
+|                |     .className = "클래스명"                     |      .attr("class", "클래스명")                    |
 | data속성       | 태그.setAttribute("data-속성", "값")            | $태그.data("속성", "값")                           |
 |                | 태그.dataset.속성 = "값"                        |                                                    |
 | event 추가     | 태그.addEventListener("type", handler)          | $태그.bind(),    on(),  one()                      |
 | event 삭제     | 태그.removeEventListener("type")                |      .unbind(),  off()                             |
 | traverse-부모  | 태그.parentElement , closest()                  | $태그.parent(),   closest()                        |
-|          자식  | childNodes, firstElementChild, lastElementChild |       children(),  first(),  last()                |
+|          자식  | childNodes, children, firstElementChild, lastElementChild |       children(),  first(),  last()                |
 |                |                                                 |       find("css선택자")                            |
 |          형제  | nextElementSibling, previousElementSibling      | $태그.prev(),  next()                              |
 |                |                                                 |      .prevAll(), nextAll(),  siblings()            |
