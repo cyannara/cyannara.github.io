@@ -34,6 +34,7 @@ categories: javascript
 | class 변경     | 태그.classList.add() / remove() / togger()      | $태그.addClass() / removeClass() / toggleClass()   |
 |                |     .contains("클래스명")                       |      .hasClass("클래스명")                         |
 | data속성       | 태그.setAttribute("data-속성", "값")            | $태그.data("속성", "값")                           |
+|                | 태그.dataset.속성 = "값"                        |                                                    |
 | event 추가     | 태그.addEventListener("type", handler)          | $태그.bind(),    on(),  one()                      |
 | event 삭제     | 태그.removeEventListener("type")                |      .unbind(),  off()                             |
 | traverse-부모  | 태그.parentElement , closest()                  | $태그.parent(),   closest()                        |
