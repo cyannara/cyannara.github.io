@@ -20,8 +20,14 @@ categories: javascript
 |                |         .querySelector("css slector")           |                                                    |
 |                |         .querySelectorAll("css slector")        |                                                    |
 | html 요소 생성 | 변수 = document.createElement("option")         | $newTag = $("\<option\>")                          |  
-| html 요소 추가 | 부모태그.appendChild(변수)                      | $부모태그.append($newTag)                          |
-|                | 부모태그.append(변수1, 변수2)                   |                                                    | 
+| html 요소 추가 | 부모태그.append( node or text ...)              | $부모.append($newTag)                             | 
+|                |        .prepend(), .appendChild()              |                                                   | 
+|                |        ..appendChild()                         |                                                   | 
+|                |        .insertAdjacentElement(position, element) |                                                  |
+|                |        .insertAdjacentHTML(position, text)     |                                                   |
+|                |        .insertAdjacentText(position, text)     |                                                   |
+|                |        .prepend(), .appendChild()              |                                                   | 
+|                | 형제.after(), before()                         |  $형제.after(), before()                                                    |
 | html 내용 변경 | 태그.innerHTML = '수정할내용'                   | $태그.html("수정할내용")                           |
 | html 요소 삭제 | 부모태그.removeChild(태그)                      |                                                    |
 |                | 태그.remove()                                   | $태그.remove()                                     |
