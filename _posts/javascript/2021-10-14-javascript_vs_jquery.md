@@ -20,8 +20,14 @@ categories: javascript
 |                |         .querySelector("css slector")           |                                                    |
 |                |         .querySelectorAll("css slector")        |                                                    |
 | html 요소 생성 | 변수 = document.createElement("option")         | $newTag = $("\<option\>")                          |  
-| html 요소 추가 | 부모태그.appendChild(변수)                      | $부모태그.append($newTag)                          |
-|                | 부모태그.append(변수1, 변수2)                   |                                                    | 
+| html 요소 추가 | 부모태그.append( node or text ...)              | $부모.append($newTag)                             | 
+|                |        .prepend(), .appendChild()              |                                                   | 
+|                |        ..appendChild()                         |                                                   | 
+|                |        .insertAdjacentElement(position, element) |                                                  |
+|                |        .insertAdjacentHTML(position, text)     |                                                   |
+|                |        .insertAdjacentText(position, text)     |                                                   |
+|                |        .prepend(), .appendChild()              |                                                   | 
+|                | 형제.after(), before()                         |  $형제.after(), before()                                                    |
 | html 내용 변경 | 태그.innerHTML = '수정할내용'                   | $태그.html("수정할내용")                           |
 | html 요소 삭제 | 부모태그.removeChild(태그)                      |                                                    |
 |                | 태그.remove()                                   | $태그.remove()                                     |
@@ -33,11 +39,13 @@ categories: javascript
 |                | 태그.style.display = 'none'   또는 'block'      |      .hide(),  show()                              |
 | class 변경     | 태그.classList.add() / remove() / togger()      | $태그.addClass() / removeClass() / toggleClass()   |
 |                |     .contains("클래스명")                       |      .hasClass("클래스명")                         |
+|                |     .className = "클래스명"                     |      .attr("class", "클래스명")                    |
 | data속성       | 태그.setAttribute("data-속성", "값")            | $태그.data("속성", "값")                           |
+|                | 태그.dataset.속성 = "값"                        |                                                    |
 | event 추가     | 태그.addEventListener("type", handler)          | $태그.bind(),    on(),  one()                      |
 | event 삭제     | 태그.removeEventListener("type")                |      .unbind(),  off()                             |
 | traverse-부모  | 태그.parentElement , closest()                  | $태그.parent(),   closest()                        |
-|          자식  | childNodes, firstElementChild, lastElementChild |       children(),  first(),  last()                |
+|          자식  | childNodes, children, firstElementChild, lastElementChild |       children(),  first(),  last()                |
 |                |                                                 |       find("css선택자")                            |
 |          형제  | nextElementSibling, previousElementSibling      | $태그.prev(),  next()                              |
 |                |                                                 |      .prevAll(), nextAll(),  siblings()            |
