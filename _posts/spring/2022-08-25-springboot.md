@@ -5,6 +5,12 @@ categories: spring
 tags: [springboot]
 toc: true
 ---
+## springboot 버전
+<pre>
+springboot      3.2.0  =>  2.7.18
+   mybatis      3.0.3  =>  2.3.2
+      java         17  =>  11
+</pre>
 
 ##  로컬, 개발, 서버 각 환경에 맞는 스프링 프로파일 분리
 
@@ -84,3 +90,10 @@ public class SecurityConfig {
 	}
 }
 ```
+
+## junit error
+[JUnit] The method andExpect(ResultMatcher) in the type ResultActions is not applicable for the arguments (RequestMatcher)
+
+해결책 : content import 수정
+org.springframework.test.web.client.match.MockRestRequestMatchers.content;
+==>    org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
