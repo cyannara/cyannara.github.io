@@ -56,6 +56,8 @@ docs:
 
   - title: 클라우드와 배포
     children: 
+      - title: "ubuntu"
+        url: /cloud/ubuntu/     
       - title: "aws"
         url: /cloud/aws_term/ 
       - title: "EC2 WAS"
@@ -93,15 +95,6 @@ docs:
 
       - title: "node.js"
         url: /vue/nodejs/   
-
-  - title: python
-    children:
-      - title: "python"
-        url: /python/python/       
-      - title: "python web"
-        url: /python/python_web/    
-      - title: "python vs java"
-        url: /python/python_java_comp/    
 
   - title: DB
     children:
