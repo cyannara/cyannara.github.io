@@ -5,6 +5,10 @@ categories: cloud
 tags: [virtualbox]
 ---
 
+## [virtual networking](https://www.virtualbox.org/manual/ch06.html){:target="_blank"}
+
+
+
 ##virtualBox 설정
 * 복사 붙여넣기 
   - 가상머신 -> 장치 -> 게스트확장 CD 이미지 삽입... (설치필요)
