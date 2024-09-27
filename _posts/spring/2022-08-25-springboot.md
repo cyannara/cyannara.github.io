@@ -18,10 +18,8 @@ springboot    3.2.9   <==   3.2.0  <==  2.7.18
 - @EnableWebMvc
 - @SpringBootApplication
 - @Configuration
-- @PropertySource, @ConfigurationProperties
-- @Value
-- @ComponentScan
-- @Component
+- @PropertySource, @ConfigurationProperties, @Value
+- @ComponentScan. @Component
 - @Bean, @Required, @Singletone, @Lazy
 - @Autowired, @Inject, @Qualifier, @Resource
 - @PostCopnstuct, @PreConstruct, @PreDestory
@@ -29,7 +27,7 @@ springboot    3.2.9   <==   3.2.0  <==  2.7.18
 - @CrossOrign
 - @ExceptionHandler
 - @ControllerAdvice, @RestControllerAdvice
-- @RequestMapping, @GetMapping, @PostMapping, PutMapping, DeleteMapping
+- @RequestMapping, @GetMapping, @PostMapping, @PutMapping, @DeleteMapping, @PatchMapping
 - @CookieValue
 - @Valid, @InitBinder
 - @PathVariable
@@ -38,6 +36,35 @@ springboot    3.2.9   <==   3.2.0  <==  2.7.18
 - @ResponseBody, @ResponseStatus
 - @Transactional
 - @Cacheable, @CachePut, @CacheEvent, @CacheConfig
+
+### AOP Anotation
+- @Aspect
+- @Pointcut
+- @Before, @After, @Around, @AfterRetruning, @AfterThrowing
+
+### JPA Annotation
+- @Entity
+- @Table
+- @Id, @GeneratedValue
+- @column
+- @OneToMany
+- @ManyToOne
+
+### Java Bean Validation Annotation
+- @NotBlank, @Null, @NotNull
+- @NotEmpty
+- @Email
+- @Min, @Max
+- @Digits, @Positive, @PositiveOrZero, @Negative, @NegativeOrZero
+- @Future, @futureOrPresent, @Past, @PastOrPresent
+
+### Swagger Annotation
+- @Tag
+- @Operation
+- @Parameter
+- @ApiResponse
+- @Schema
+- @ApiModelProperty
 
 
 ##  로컬, 개발, 서버 각 환경에 맞는 스프링 프로파일 분리
