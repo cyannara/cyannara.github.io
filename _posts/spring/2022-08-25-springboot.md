@@ -7,10 +7,38 @@ toc: true
 ---
 ## springboot 버전
 <pre>
-springboot      3.2.0  =>  2.7.18
-   mybatis      3.0.3  =>  2.3.2
-      java         17  =>  11
+springboot    3.2.9   <==   3.2.0  <==  2.7.18
+    spring    6.1.12  <==   5      <==  5
+   mybatis    3.5.14  <==   3.0.3  <==  2.3.2
+      java    21      <==   17     <==  11
 </pre>
+
+## springboot annotation
+- @EnableAutoConfiguration
+- @EnableWebMvc
+- @SpringBootApplication
+- @Configuration
+- @PropertySource, @ConfigurationProperties
+- @Value
+- @ComponentScan
+- @Component
+- @Bean, @Required, @Singletone, @Lazy
+- @Autowired, @Inject, @Qualifier, @Resource
+- @PostCopnstuct, @PreConstruct, @PreDestory
+- @RestController, @Controller, @Service, @Repository
+- @CrossOrign
+- @ExceptionHandler
+- @ControllerAdvice, @RestControllerAdvice
+- @RequestMapping, @GetMapping, @PostMapping, PutMapping, DeleteMapping
+- @CookieValue
+- @Valid, @InitBinder
+- @PathVariable
+- @RequestAttribute, @RequestHeader, @RequestParam, @RequestPart, @RequestBody
+- @ModelAttribute, @SessionAttributes
+- @ResponseBody, @ResponseStatus
+- @Transactional
+- @Cacheable, @CachePut, @CacheEvent, @CacheConfig
+
 
 ##  로컬, 개발, 서버 각 환경에 맞는 스프링 프로파일 분리
 
