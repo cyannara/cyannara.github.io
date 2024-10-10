@@ -89,7 +89,54 @@ $.each(arr, function(idx, item){
 })
 ```
 
-## AJAX
+## fetch 함수와 $.ajax() 함수 비교
+
+### query string
+-  "변수명=값&변수명=값"
+-  form-urlencoded(생략가능)
+
+```javascript
+
+ // get 방식
+ fetch(url + "?var=value").then();
+ $.ajax(url + "?var=value").done();
+
+// post,put 방식
+   fetch(url, {method:'post', body: "fvar=value&svar=value" }).then()	
+  $.ajax(url, {method:'post', data: "fvar=value&svar=value" }).done()
+  $.ajax(url, {method:'post', data: {"fvar":"value", "svar":"value" }  }).done()
+```
+
+### json string 
+- "{"필드명":"값"}"
+- application/json 
+- get 방식은 지원 안 함
+
+<pre>  
+       post,put		      fetch(url,{method:'post', 
+                                         headers : { "content-type" : "application/json"},
+                                         body:'{"var":"value"}' }).then()	
+ 
+			      $.ajax(url,{method:'post', 
+                                          contentType" : "application/json", 
+                                           data:'{"var":"value"}' }).done()
+
+                                           data:JSON.stringify({var:"value"})  }).done()
+
+                               axios  :  default 가 json 형식
+
+</pre>
+
+### sync     VS  asynchronus (동기와 비동기 차이점)
+<pre>
+   blocking VS  nonblocking
+
+  sync : 순차적으로
+  async : 콜백함수     -->  async ~ await
+  cors : ajax 같은 도메인에서만 요청 
+</pre>
+  
+## AJAX 실습
 
 
 1. to do
