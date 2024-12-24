@@ -140,10 +140,10 @@ __ __ __ __ __ __ __
 <!-- 그림 넣기 -->
 ![세피로트](https://cdn.pixabay.com/photo/2019/03/13/08/29/cat-4052454_1280.jpg "툴팁 메시지. 이 부분은 생략해도 됩니다.")
 
-![이미지 설명](이미지 링크)  
+> ![이미지 설명](이미지 링크)  
 ![고양이애옹](https://cdn.pixabay.com/photo/2019/03/13/08/29/cat-4052454_1280.jpg)
 
-[![이미지 설명](이미지 링크)](연결하고자하는 url "마우스 오버 시 나타낼 링크 title")  
+> [![이미지 설명](이미지 링크)](연결하고자하는 url "마우스 오버 시 나타낼 링크 title")  
 [![고양이애옹](https://cdn.pixabay.com/photo/2019/03/13/08/29/cat-4052454_1280.jpg)](https://cdn.pixabay.com/photo/2019/03/13/08/29/cat-4052454_1280.jpg"이미지 무료 사이트 pixabay")
 
 <!-- 테이블 -->
@@ -158,6 +158,6 @@ __ __ __ __ __ __ __
 - [x] 강의 듣기
 
 <!-- 글자 색상 -->
-<span style="color:red">red</span>
-<span style="color:#d3d3d3">#d3d3d3</span>
+<span style="color:red">red</span>  
+<span style="color:#d3d3d3">#d3d3d3</span>  
 <span style="color:rgb(245, 235, 13)">rgb(245, 235, 13)</span>
