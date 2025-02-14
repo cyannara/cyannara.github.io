@@ -2,7 +2,7 @@ docs:
   - title: 공통
     children:
       - title: "용어정리"
-        url: /common/용어/   
+        url: /common/term/   
         
   - title: javascript
     children:
