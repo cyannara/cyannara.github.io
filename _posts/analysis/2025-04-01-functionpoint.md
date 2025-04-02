@@ -1,3 +1,11 @@
+---
+title: "function point"
+date: 2025-04-01
+categories: common  
+tags: [function]
+toc: true
+---
+
 ## Function Point
  - Function Point는 프로젝트 규모를 정량적으로 평가
  - 기능 유형(ILF, EIF, EI, EO, EQ)별 개수를 세고, 복잡도를 설정하여 가중치 적용
