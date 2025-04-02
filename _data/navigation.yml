@@ -3,6 +3,8 @@ docs:
     children:
       - title: "용어정리"
         url: /common/term/   
+      - title: "Function Point"  
+        url: /common/functionpoint/ 
         
   - title: javascript
     children:
