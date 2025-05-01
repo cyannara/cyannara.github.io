@@ -94,6 +94,24 @@ git pull origin main **--allow-unrelated-histories**
 - HEAD 는 로컬에서 가장 마지막에 행해진 commit 정보
 - FETCH_HEAD는 원격 저장소의 최신 commit 이력
 
+## README.md  작성
+- 프로젝트 설치 방법과 실행 방법을 명시
+- 간단하면서 구체적으로 작성
+- 프로젝트명
+- 프로젝트 설명
+- 목차(선택)
+- 프로젝트 설치 및 실행 방법
+- 프로젝트 사용방법
+- 팀원 및 참고자료
+- 라이센스
+- 뱃지
+- 프로젝트에 기여하는 방법
+- 테스트
+
+referer : https://www.freecodecamp.org/korean/news/gisheobeu-peurojegteue-rideumi-paileul-jal-jagseonghaneun-bangbeob/ 
+
+
+
 ## 참고사이트
 
 - [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github){:target="\_blank"}
