@@ -106,6 +106,8 @@ docs:
     children:
       - title: "sql"
         url: /db/sql/      
+      - title: "plsql"
+        url: /db/plsql/      
 
   - title: JAVA
     children:  
