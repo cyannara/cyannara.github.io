@@ -45,3 +45,17 @@ categories: javascript
    선택항목 3가지 중 필요한 항목을 선택해주면 더미 텍스트가 입력됩니다.
 
 HTML 페이지에서는 `Lorem*20`
+
+### 터미널 한글 인코딩
+cmd 터미널에 chcp 65001 인코딩 설정 추가함  
+f1 -> open user settings(json)  
+```json
+    "terminal.integrated.profiles.windows": {
+        "cmd_UTF8": {
+            "path": "cmd.exe",
+            "args": ["/K", "chcp 65001"]
+        }
+        },
+    "terminal.integrated.defaultProfile.windows": "cmd_UTF8",
+    //"terminal.integrated.defaultProfile.windows": "Command Prompt",
+```
