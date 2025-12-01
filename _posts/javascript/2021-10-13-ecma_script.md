@@ -28,6 +28,17 @@ categories: javascript
 * `바벨(Babel)` : 자바스크립트 코드를 구 표준을 준수하는 코드로 바꿔줌. async/await를 지원하지 않는 브라우저를 만나면 Babel은 이전 브라우저에서 작동하는 polyfill를 자동으로 제공합니다.
 * `폴리필(polyfill)` : 변경된 표준을 준수할 수 있게 기존 함수의 동작 방식을 수정하거나, 새롭게 구현한 함수의 스크립트를 폴리필이라 부름. 구현이 누락된 새로운 기능을 메꿔주는 역할.
 
+## 예약어
+
+arguments / await / break / case / catcl / class / const / debuffer / default / delete / do / else / enum / eval / export / extends / false / finally / for / function / if / implements / import / in / Infinity / instanceof / interface / let / NaN / null / package / private / protected / public / return / static / super / switch / this / /throw / true / typeof / undefined / var / void / while / with / yield
+
+## 원시형 데이터 타입과 참조형 데이터 타입
+
+* 원시형 데이터 타입 : 숫자형/문자형('')/불리언(true,false)/심볼형/null/undefined
+* `심볼형` : 문자열 안지를 받아 고유한 키 값을 생성. 같은 인자를 넘겨도 다른 키 값이 생성. 객체의 속성 키로 사용함.Symbile('문자값') 
+* 참조형 데이터 타입 : 객체(함수, 배열, 맵, 집합)
+
+
 ## 변수선언
 
 * `const` : 상수선언. 값 변경불가. 객체나 배열의 원소값은 변경 가능 
@@ -43,18 +54,15 @@ const obj = { };   // 상수선언. 값(타입) 변경불가. 객체나 배열�
 
 ![var](./img/var01.png)  
 
-## 예약어
-
-arguments / await / break / case / catcl / class / const / debuffer / default / delete / do / else / enum / eval / export / extends / false / finally / for / function / if / implements / import / in / Infinity / instanceof / interface / let / NaN / null / package / private / protected / public / return / static / super / switch / this / /throw / true / typeof / undefined / var / void / while / with / yield
-
-## 원시형 데이터 타입과 참조형 데이터 타입
-
-* 원시형 데이터 타입 : 숫자형/문자형('')/불리언(true,false)/심볼형/null/undefined
-* `심볼형` : 문자열 안지를 받아 고유한 키 값을 생성. 같은 인자를 넘겨도 다른 키 값이 생성. 객체의 속성 키로 사용함.Symbile('문자값') 
-* 참조형 데이터 타입 : 객체(함수, 배열, 맵, 집합)
-
-
-
+## 연산자
+* 널 병합 연산자(??) : 왼쪽 피연산자가 null 또는 undefiened 일 때 오른쪽 피연산자를 반환하고 아니면 왼쪽 피연산자를 반환 ( nvl 함수와 같음)  
+* 널 병합 할당 연산자(??=) : 위와 같음.  
+  
+```javascript
+car.speed ??= 10;                 // car.speed 가 없으면 car.speed 속성에 10으로 할당
+let speed = car.speed ?? 10;      // car.speed 가 없으면 speed 변수에 10으로 할당
+```
+  
 ## 모듈
 * [참고사이트](https://velog.io/@jjunyjjuny/ES-Modules-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0){:target="_blank"}
 * `캡슐화` : 모듈 안의 모든 기능들은 모듈 안에서만 동작하며, 모듈 밖에서는 접근이 허용된 속성이나 메서드만 사용가능
