@@ -62,8 +62,7 @@ const obj = { };   // 상수선언. 값(타입) 변경불가. 객체나 배열�
 car.speed ??= 10;                 // car.speed 가 없으면 car.speed 속성에 10으로 할당
 let speed = car.speed ?? 10;      // car.speed 가 없으면 speed 변수에 10으로 할당
 ```
-* typeof : number, string, object, boolean, function, undefined, symbol, bigint, null
-* 
+* typeof : number, string, object, boolean, function, undefined, symbol, bigint, null  
 ```
   <script>
 
