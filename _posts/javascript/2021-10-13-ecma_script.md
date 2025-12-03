@@ -63,8 +63,7 @@ car.speed ??= 10;                 // car.speed 가 없으면 car.speed 속성에
 let speed = car.speed ?? 10;      // car.speed 가 없으면 speed 변수에 10으로 할당
 ```
 * typeof : number, string, object, boolean, function, undefined, symbol, bigint, null  
-```
-  <script>
+```javascript
 
    let v1 = 10.5;   //number
    let v2 = "good"; //string
@@ -81,7 +80,6 @@ let speed = car.speed ?? 10;      // car.speed 가 없으면 speed 변수에 10�
    console.log(v7, typeof v7)
   
    console.log("변수선언안한경우", typeof num)
-  </script>
 ```
   
 ## 모듈
