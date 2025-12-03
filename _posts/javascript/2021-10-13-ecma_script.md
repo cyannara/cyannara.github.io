@@ -57,10 +57,32 @@ const obj = { };   // 상수선언. 값(타입) 변경불가. 객체나 배열�
 ## 연산자
 * 널 병합 연산자(??) : 왼쪽 피연산자가 null 또는 undefiened 일 때 오른쪽 피연산자를 반환하고 아니면 왼쪽 피연산자를 반환 ( nvl 함수와 같음)  
 * 널 병합 할당 연산자(??=) : 위와 같음.  
-  
+   
 ```javascript
 car.speed ??= 10;                 // car.speed 가 없으면 car.speed 속성에 10으로 할당
 let speed = car.speed ?? 10;      // car.speed 가 없으면 speed 변수에 10으로 할당
+```
+* typeof : number, string, object, boolean, function, undefined, symbol, bigint, null
+* 
+```
+  <script>
+
+   let v1 = 10.5;   //number
+   let v2 = "good"; //string
+   let v3 = new String("morining");  //object
+   let v4 = {};  //object
+   let v5 = [];  //object
+   let v6 = true; //boolean
+   let v7 = ()=>{} ;  //function
+
+   console.log(v1, typeof v1)
+   console.log(v2, typeof v2)
+   console.log(v3, typeof v3)
+   console.log(v6, typeof v6)
+   console.log(v7, typeof v7)
+  
+   console.log("변수선언안한경우", typeof num)
+  </script>
 ```
   
 ## 모듈
