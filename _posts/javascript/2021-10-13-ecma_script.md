@@ -52,7 +52,7 @@ const init = 10;   // 상수선언. 값 변경불가(err msg : Assignment to con
 const obj = { };   // 상수선언. 값(타입) 변경불가. 객체나 배열의 원소값은 변경 가능
 ```
 
-![var](./img/var01.png)  
+![var](/img/var01.png)  
 
 ## 연산자
 * 널 병합 연산자(??) : 왼쪽 피연산자가 null 또는 undefiened 일 때 오른쪽 피연산자를 반환하고 아니면 왼쪽 피연산자를 반환 ( nvl 함수와 같음)  
