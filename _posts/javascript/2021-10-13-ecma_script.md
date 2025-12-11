@@ -81,7 +81,17 @@ let speed = car.speed ?? 10;      // car.speed 가 없으면 speed 변수에 10�
   
    console.log("변수선언안한경우", typeof num)
 ```
-  
+
+## DOM
+* getElementById : 	document 전용
+* querySelector :	document + element 가능
+
+```javascript
+   document.getElementById("padiv").getElementById("input");  // X(안됨) getElementById는 document 전용임 
+   document.getElementById("padiv").querySelector("input");   // querySelector는 document + element 가능
+   document.querySelector("#padiv input");                    // 추천
+```
+
 ## 모듈
 * [참고사이트](https://velog.io/@jjunyjjuny/ES-Modules-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0){:target="_blank"}
 * `캡슐화` : 모듈 안의 모든 기능들은 모듈 안에서만 동작하며, 모듈 밖에서는 접근이 허용된 속성이나 메서드만 사용가능
