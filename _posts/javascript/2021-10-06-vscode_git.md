@@ -57,28 +57,40 @@ $ git config --list
 
 ## branch
 
+### 브랜치 병합
+```sh
+git fetch origin            # 원격 최신 상태 가져오기(브랜치목록동기화)
+git checkout dev            # 로컬 dev 브랜치 최신화
+git pull origin dev            
+git checkout my-branch      # 개인브랜치로 이동
+git merge dev               # dev 브랜치를 개인브랜치에 머지 (자동으로 merge commit 됨)
+git status                  # 총돌시 상태 확인하고 파일 수정하고 add하고 commit
+git push origin my-branch   # 개인 브랜치 원격 반역
+
+github 사이트에서 pull request 요청 (원격 리포지토리 개인브랜치를 dev 브랜치에 병합요청)
+```
+
 ### 원격 브랜치 업데이트
-
+```sh
 git remote update
-
+```
 ### 원격 브랜치 목록
-
+```sh
 git branch -r
-
+```
 ### 로컬 브랜치 목록
-
+```sh
 git branch -a
-
-## 로컬저장소 브랜치 리스트
-
+```
+### 로컬저장소 브랜치 리스트
+```sh
 git branch -al
-
-## 원격 브랜치 동기화
-
+```
+### 원격 브랜치 동기화
+```sh
 git fetch --all --prune
-
 git purne
-
+```
 ## Git pull이 안되는 경우
 
 - fatal: refusing to merge unrelated histories <-- 공통된 커밋 포인트가 없다(commit history가 서로 관련이 없다)는 에러
@@ -94,7 +106,7 @@ git pull origin main **--allow-unrelated-histories**
 - HEAD 는 로컬에서 가장 마지막에 행해진 commit 정보
 - FETCH_HEAD는 원격 저장소의 최신 commit 이력
 
-## README.md  작성
+## [README.md  작성](https://www.freecodecamp.org/korean/news/gisheobeu-peurojegteue-rideumi-paileul-jal-jagseonghaneun-bangbeob/){:target="\_blank"}
 - 프로젝트 설치 방법과 실행 방법을 명시
 - 간단하면서 구체적으로 작성
 - 프로젝트명
@@ -107,9 +119,6 @@ git pull origin main **--allow-unrelated-histories**
 - 뱃지
 - 프로젝트에 기여하는 방법
 - 테스트
-
-referer : https://www.freecodecamp.org/korean/news/gisheobeu-peurojegteue-rideumi-paileul-jal-jagseonghaneun-bangbeob/ 
-
 
 
 ## 참고사이트
