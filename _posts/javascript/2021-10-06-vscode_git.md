@@ -117,3 +117,4 @@ referer : https://www.freecodecamp.org/korean/news/gisheobeu-peurojegteue-rideum
 - [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github){:target="\_blank"}
 - [git 입문](https://dreamsea77.tistory.com/313)
 - [git 심화](https://dreamsea77.tistory.com/314)
+- [git branch 전략](https://devocean.sk.com/blog/techBoardDetail.do?ID=165571&boardType=techBlog)
