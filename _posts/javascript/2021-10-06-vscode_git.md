@@ -91,6 +91,18 @@ git branch -al
 git fetch --all --prune
 git purne
 ```
+
+### 윈도우 자격증명 사용하기
+이 명령어는 Git이 Windows 자격 증명 관리자를 사용하도록 지시합니다.  
+credential.helper 설정을 확인  
+```sh
+git config --global credential.helper
+```
+자격 증명 도우미를 manager로 설정  
+```sh
+git config --global credential.helper manager
+```
+
 ## Git pull이 안되는 경우
 
 - fatal: refusing to merge unrelated histories <-- 공통된 커밋 포인트가 없다(commit history가 서로 관련이 없다)는 에러
