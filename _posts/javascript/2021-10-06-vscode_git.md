@@ -7,11 +7,11 @@ categories: javascript
 ## git 설치하고 환경설정
 
 1. git 설치  
-   ![add](images/git_01.png)  
-   ![add](images/git_02.png)  
-   ![add](images/git_03.png)  
-   ![add](images/git_04.png)  
-   ![add](images/git_05.png)
+   ![add](/img/javascript/git_01.png)  
+   ![add](/img/javascript//git_02.png)  
+   ![add](/img/javascript//git_03.png)  
+   ![add](/img/javascript//git_04.png)  
+   ![add](/img/javascript//git_05.png)
 
 2. path 추가
 
@@ -25,11 +25,11 @@ $ git config --list
 
 ## git clone
 
-![add](images/git_clone_01.png)
-![add](images/git_clone_02.png)
-![add](images/git_clone_03.png)
-![add](images/git_clone_04.png)
-![add](images/git_clone_05.png)
+![add](/img/javascript//git_clone_01.png)
+![add](/img/javascript//git_clone_02.png)
+![add](/img/javascript//git_clone_03.png)
+![add](/img/javascript//git_clone_04.png)
+![add](/img/javascript//git_clone_05.png)
 
 ## 터미널에서 github clone 연동
 
@@ -47,19 +47,19 @@ $ git config --list
    F1 => 'git clone' 입력 => 'Git: Clone' 메뉴 선택 => 리포지토리 선택 => 로컬에 저장될 위치 지정
 
 3. add stage  
-   ![add](images/vs_git_01.png)
+   ![add](/img/javascript//vs_git_01.png)
 
 4. commit  
-   ![commit](images/vs_git_02.png)
+   ![commit](/img/javascript//vs_git_02.png)
 
 5. push  
-   ![push](images/vs_git_03.png)
+   ![push](/img/javascript//vs_git_03.png)
 
 ## 로컬 폴더를 github로 올리기
 
 1. 로컬폴더를 git init로 초기화
    F1 => 'git init' 입력 => 로컬 폴더 선택
-   ![add](images/vs_git_04.png)
+   ![add](/img/javascript//vs_git_04.png)
 
 2. [Source controll]에서 add -> commit
 
