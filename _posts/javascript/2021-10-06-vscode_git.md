@@ -195,7 +195,14 @@ git fetch 시 ref 에러는 일반적으로 원격 저장소의 특정 브랜치
 예시:
 만약 "fatal: couldn't find remote ref dev" 에러가 발생하고, 원격 저장소에 dev 브랜치가 없다면, dev 브랜치를 삭제하거나, origin에 dev 브랜치가 존재하는지 확인한 후, 해당 브랜치를 로컬에 가져와야 합니다.
 
+5. 변경취소
+```sh
+   git reset --hard             # 초기 상태로 되돌리기
+   git restore .                # 변경취소(모두 되돌리기)  
+   git checkout -- file.txt     # 특정한 파일 되돌리기    
+   git clean -f                 # Untracked files 삭제  
 ```
+
 # dev 브랜치 삭제
 git branch -d dev
 
