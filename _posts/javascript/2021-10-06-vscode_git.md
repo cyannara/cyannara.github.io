@@ -170,3 +170,40 @@ git pull origin main **--allow-unrelated-histories**
 - [git 입문](https://dreamsea77.tistory.com/313)
 - [git 심화](https://dreamsea77.tistory.com/314)
 - [git branch 전략](https://devocean.sk.com/blog/techBoardDetail.do?ID=165571&boardType=techBlog)
+
+## git 명령어
+
+git fetch 시 ref 에러는 일반적으로 원격 저장소의 특정 브랜치 또는 태그가 로컬 저장소에 존재하지 않거나, 원격 저장소와 로컬 저장소가 동기화되지 않아 발생
+
+1. 원격 저장소에서 최신 변경 사항 가져오기  
+   git fetch origin 명령어를 사용하여 원격 저장소(origin)의 최신 변경 사항을 다운로드합니다.  
+   git fetch --all 명령어를 사용하여 모든 원격 저장소의 변경 사항을 다운로드할 수도 있습니다.
+
+2. 로컬 브랜치 업데이트  
+   git branch -v 명령어를 사용하여 로컬 브랜치와 원격 브랜치의 관계를 확인합니다.
+   git checkout <로컬 브랜치 이름> 명령어를 사용하여 해당 로컬 브랜치로 이동합니다.  
+   git merge origin/<원격 브랜치 이름> 명령어를 사용하여 원격 브랜치의 변경 사항을 로컬 브랜치에 병합합니다.
+
+3. 원격 저장소에 존재하지 않는 로컬 브랜치 제거  
+   git branch -d <로컬 브랜치 이름> : 제거  
+   git branch -D <로컬 브랜치 이름> : 강제로 제거
+
+4. --force 옵션 사용 (주의)  
+   git push --force origin <로컬 브랜치 이름> 명령어를 사용하여 로컬 브랜치를 강제로 원격 저장소에 푸시할 수 있습니다.  
+   주의: 이 방법은 원격 저장소의 데이터를 삭제할 수 있으므로, 사용 시 주의해야 합니다.
+
+예시:
+만약 "fatal: couldn't find remote ref dev" 에러가 발생하고, 원격 저장소에 dev 브랜치가 없다면, dev 브랜치를 삭제하거나, origin에 dev 브랜치가 존재하는지 확인한 후, 해당 브랜치를 로컬에 가져와야 합니다.
+
+```
+# dev 브랜치 삭제
+git branch -d dev
+
+# origin에 dev 브랜치가 있는지 확인
+git branch -r
+
+# origin에서 dev 브랜치를 로컬로 가져오기 (존재한다면)
+git fetch origin
+git branch --track dev origin/dev
+git checkout dev
+```
